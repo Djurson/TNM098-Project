@@ -35,3 +35,7 @@ for file in log_files:
 # Combine and Save
 final_df = pd.concat(all_data).sort_values(['employerId', 'timestamp'])
 final_df.to_csv('company_prosperity_data.csv', index=False)
+
+
+
+# each person has data from: 1/3 - 22 to: 24/5 - 23 (129279 rows)
