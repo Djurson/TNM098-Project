@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from 'react';
-import { Button } from "@/components/ui/button";
+import { useState, useEffect, useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Papa from 'papaparse';
 
@@ -22,7 +21,7 @@ export default function Page() {
   const [selectedEmployer, setSelectedEmployer] = useState<string>("");
 
   useEffect(() => {
-    //fetch('/daily_company_prosperity.csv')
+    fetch('/daily_company_prosperity.csv')
       .then(response => response.text())
       .then(csvString => {
         const result = Papa.parse(csvString, { header: true, dynamicTyping: true });
@@ -42,14 +41,12 @@ export default function Page() {
       });
   }, []);
 
-  const employers = useMemo(() => {
-    return Array.from(new Set(data.map(d => String(d.employerId))))
-      .sort((a, b) => Number(a) - Number(b));
-  }, [data]);
+  const employers = useMemo(() =>  Array.from(new Set(data.map(d => String(d.employerId))))
+      .sort((a, b) => Number(a) - Number(b))
+  , [data]);
 
-  const filteredData = useMemo(() => {
-    return data.filter(d => String(d.employerId) === selectedEmployer);
-  }, [data, selectedEmployer]);
+  const filteredData = useMemo(() =>  data.filter(d => String(d.employerId) === selectedEmployer)
+  , [data, selectedEmployer]);
 
   return (
     <div className="flex flex-col min-h-svh p-6 gap-6 bg-slate-50">
@@ -71,7 +68,7 @@ export default function Page() {
         </select>
       </div>
 
-      <div className="flex-1 min-h-[500px] bg-white p-6 rounded-xl border shadow-md">
+      <div className="flex-1 min-h-125 bg-white p-6 rounded-xl border shadow-md">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart 
             data={filteredData} 
