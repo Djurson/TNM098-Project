@@ -1,0 +1,226 @@
+{
+  "442": {
+    "hourlyCost": 8.281103075,
+    "maxOccupancy": 64.0,
+    "location": "POINT (964.4380231713202 3991.603473784208)",
+    "buildingId": 556,
+    "venueType": "Pub"
+  },
+  "443": {
+    "hourlyCost": 6.41743539,
+    "maxOccupancy": 64.0,
+    "location": "POINT (1809.880173357865 4339.172426035451)",
+    "buildingId": 29,
+    "venueType": "Pub"
+  },
+  "444": {
+    "hourlyCost": 12.58180629,
+    "maxOccupancy": 84.0,
+    "location": "POINT (770.4279044387976 932.5852003214752)",
+    "buildingId": 1012,
+    "venueType": "Pub"
+  },
+  "892": {
+    "hourlyCost": 11.64290518,
+    "maxOccupancy": 96.0,
+    "location": "POINT (-1524.9573211662105 3815.271490114369)",
+    "buildingId": 502,
+    "venueType": "Pub"
+  },
+  "893": {
+    "hourlyCost": 14.84047265,
+    "maxOccupancy": 79.0,
+    "location": "POINT (-1608.766411449925 3886.4924784954583)",
+    "buildingId": 164,
+    "venueType": "Pub"
+  },
+  "894": {
+    "hourlyCost": 12.31121004,
+    "maxOccupancy": 72.0,
+    "location": "POINT (-1702.5378155541193 3865.477090848479)",
+    "buildingId": 238,
+    "venueType": "Pub"
+  },
+  "1342": {
+    "hourlyCost": 14.14003653,
+    "maxOccupancy": 77.0,
+    "location": "POINT (-260.45747053139064 5026.150804179361)",
+    "buildingId": 429,
+    "venueType": "Pub"
+  },
+  "1343": {
+    "hourlyCost": 10.52497243,
+    "maxOccupancy": 67.0,
+    "location": "POINT (-501.42676062779447 3551.572638649489)",
+    "buildingId": 489,
+    "venueType": "Pub"
+  },
+  "1344": {
+    "hourlyCost": 10.41529315,
+    "maxOccupancy": 60.0,
+    "location": "POINT (-225.9209866450221 3878.053697626113)",
+    "buildingId": 585,
+    "venueType": "Pub"
+  },
+  "1798": {
+    "hourlyCost": 11.54535121,
+    "maxOccupancy": 64.0,
+    "location": "POINT (-3209.738139187618 6487.657688065099)",
+    "buildingId": 953,
+    "venueType": "Pub"
+  },
+  "1799": {
+    "hourlyCost": 7.487081535,
+    "maxOccupancy": 73.0,
+    "location": "POINT (-3903.194075780787 5967.8369837734845)",
+    "buildingId": 234,
+    "venueType": "Pub"
+  },
+  "1800": {
+    "hourlyCost": 10.20684548,
+    "maxOccupancy": 62.0,
+    "location": "POINT (-3796.1198513891923 6367.922072582076)",
+    "buildingId": 627,
+    "venueType": "Pub"
+  },
+  "445": {
+    "location": "POINT (631.5130723031391 2001.4772026036535)",
+    "buildingId": 304,
+    "venueType": "Restaurant",
+    "foodCost": 5.15,
+    "maxOccupancy": 71.0
+  },
+  "446": {
+    "location": "POINT (413.840000705876 1194.128694228948)",
+    "buildingId": 308,
+    "venueType": "Restaurant",
+    "foodCost": 4.17,
+    "maxOccupancy": 82.0
+  },
+  "447": {
+    "location": "POINT (497.9967937001494 1624.515148185587)",
+    "buildingId": 58,
+    "venueType": "Restaurant",
+    "foodCost": 5.87,
+    "maxOccupancy": 119.0
+  },
+  "448": {
+    "location": "POINT (698.2411158717262 4392.416668183332)",
+    "buildingId": 964,
+    "venueType": "Restaurant",
+    "foodCost": 4.07,
+    "maxOccupancy": 98.0
+  },
+  "449": {
+    "location": "POINT (1407.7107695149243 4010.4574815269225)",
+    "buildingId": 181,
+    "venueType": "Restaurant",
+    "foodCost": 5.11,
+    "maxOccupancy": 53.0
+  },
+  "895": {
+    "location": "POINT (-1623.0740591441258 3872.0300113645017)",
+    "buildingId": 164,
+    "venueType": "Restaurant",
+    "foodCost": 4.44,
+    "maxOccupancy": 103.0
+  },
+  "896": {
+    "location": "POINT (-2126.1723943111892 4285.182228265561)",
+    "buildingId": 619,
+    "venueType": "Restaurant",
+    "foodCost": 5.86,
+    "maxOccupancy": 107.0
+  },
+  "897": {
+    "location": "POINT (-1989.63526350385 3368.764837974986)",
+    "buildingId": 875,
+    "venueType": "Restaurant",
+    "foodCost": 5.76,
+    "maxOccupancy": 104.0
+  },
+  "898": {
+    "location": "POINT (-1771.452216635636 4343.580176583138)",
+    "buildingId": 917,
+    "venueType": "Restaurant",
+    "foodCost": 4.22,
+    "maxOccupancy": 115.0
+  },
+  "899": {
+    "location": "POINT (-820.9290279479601 4497.243308530136)",
+    "buildingId": 86,
+    "venueType": "Restaurant",
+    "foodCost": 5.65,
+    "maxOccupancy": 85.0
+  },
+  "1345": {
+    "location": "POINT (-1176.8013302032396 5846.6471242364805)",
+    "buildingId": 991,
+    "venueType": "Restaurant",
+    "foodCost": 4.7,
+    "maxOccupancy": 72.0
+  },
+  "1346": {
+    "location": "POINT (-3529.558386975454 4809.641127666926)",
+    "buildingId": 27,
+    "venueType": "Restaurant",
+    "foodCost": 5.85,
+    "maxOccupancy": 74.0
+  },
+  "1347": {
+    "location": "POINT (-1221.4051100732 4941.00338419236)",
+    "buildingId": 679,
+    "venueType": "Restaurant",
+    "foodCost": 4.41,
+    "maxOccupancy": 87.0
+  },
+  "1348": {
+    "location": "POINT (-508.12691044634744 6307.584421447018)",
+    "buildingId": 124,
+    "venueType": "Restaurant",
+    "foodCost": 4.23,
+    "maxOccupancy": 57.0
+  },
+  "1349": {
+    "location": "POINT (-1176.6989055164295 4726.117600229471)",
+    "buildingId": 888,
+    "venueType": "Restaurant",
+    "foodCost": 4.77,
+    "maxOccupancy": 104.0
+  },
+  "1801": {
+    "location": "POINT (-3136.1278958093117 6671.917461867151)",
+    "buildingId": 160,
+    "venueType": "Restaurant",
+    "foodCost": 5.51,
+    "maxOccupancy": 64.0
+  },
+  "1802": {
+    "location": "POINT (-4002.9335312988205 6671.996711133368)",
+    "buildingId": 714,
+    "venueType": "Restaurant",
+    "foodCost": 5.08,
+    "maxOccupancy": 72.0
+  },
+  "1803": {
+    "location": "POINT (-3182.885940731813 7167.608699410916)",
+    "buildingId": 213,
+    "venueType": "Restaurant",
+    "foodCost": 4.35,
+    "maxOccupancy": 94.0
+  },
+  "1804": {
+    "location": "POINT (-4131.41409222454 7236.525633225643)",
+    "buildingId": 101,
+    "venueType": "Restaurant",
+    "foodCost": 5.92,
+    "maxOccupancy": 48.0
+  },
+  "1805": {
+    "location": "POINT (-3927.9102395808727 5494.63962663673)",
+    "buildingId": 285,
+    "venueType": "Restaurant",
+    "foodCost": 5.59,
+    "maxOccupancy": 85.0
+  }
+}
