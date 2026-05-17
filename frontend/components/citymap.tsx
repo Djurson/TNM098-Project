@@ -2,6 +2,7 @@
 
 import * as d3 from "d3";
 import { useEffect, useMemo, useState } from "react";
+import Buildings from "@/public/buildings.json";
 
 import type { BuildingDataset, BuildingFeature } from "@/lib/types";
 
@@ -21,27 +22,27 @@ export default function CityMap() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    let active = true;
-    fetch("/buildings.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`Failed to load buildings.json (${response.status})`);
-        }
-        return response.json() as Promise<BuildingDataset>;
-      })
-      .then((payload) => {
-        if (active) {
-          setBuildings(payload.buildings ?? []);
-        }
-      })
-      .catch((err: Error) => {
-        if (active) {
-          setError(err.message);
-        }
-      });
-    return () => {
-      active = false;
-    };
+    const buildingDataset = Buildings;
+    setBuildings(buildingDataset.buildings as BuildingFeature[]);
+    // let active = true;
+    // fetch("/buildings.json")
+    //   .then((response) => {
+    //     if (!response.ok) {
+    //       throw new Error(`Failed to load buildings.json (${response.status})`);
+    //     }
+    //     return response.json() as Promise<BuildingDataset>;
+    //   })
+    //   .then((payload) => {
+    //     if (active) {
+    //       setBuildings(payload.buildings ?? []);
+    //     }
+    //   })
+    //   .catch((err: Error) => {
+    //     if (active) {
+    //       setError(err.message);
+    //     }
+    //   });
+    // return () => (active = false);
   }, []);
 
   const bounds = useMemo(() => {
