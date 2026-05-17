@@ -235,21 +235,27 @@ export function initializeBasePlot(config: { svgElement: SVGSVGElement | null; d
   return { root, scales, crosshair };
 }
 
-export function applyChartInteractions<T>(selection: Selection<any, T, any, any>, crosshair: { show: (x: number, y: number) => void; hide: () => void }, tooltip: TooltipRef | null, config: InteractionConfig<T>) {
+// 1. Add `| null` to the crosshair parameter type
+export function applyChartInteractions<T>(selection: Selection<any, T, any, any>, crosshair: { show: (x: number, y: number) => void; hide: () => void } | null, tooltip: TooltipRef | null, config: InteractionConfig<T>) {
   selection
     .on("mouseover", function (e, d) {
       config.onHoverIn(this, d);
 
       const pos = config.getCrosshairPos(d);
-      crosshair.show(pos.x, pos.y);
+      // 2. Add the question mark here
+      crosshair?.show(pos.x, pos.y);
 
       tooltip?.show(config.getTooltipData(d), e.clientX, e.clientY);
     })
-    .on("mousemove", (e) => tooltip?.move(e.clientX, e.clientY))
+    .on("mousemove", function (e) {
+      tooltip?.move(e.clientX, e.clientY);
+    })
     .on("mouseout", function (e, d) {
       config.onHoverOut(this, d);
 
-      crosshair.hide();
+      // 3. Add the question mark here
+      crosshair?.hide();
+
       tooltip?.hide();
     });
 }

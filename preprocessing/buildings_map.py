@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from pathlib import Path
 import json
+import re
 from typing import Any
 
 import pandas as pd
@@ -9,6 +9,7 @@ import pandas as pd
 import shared
 
 OUTPUT_PATH = shared.OUTPUT_DIR / "buildings.json"
+MAP_LAYERS_PATH = shared.OUTPUT_DIR / "map_layers.json"
 
 
 def _normalize_building_type(raw_value: Any) -> tuple[str, str]:
@@ -79,6 +80,123 @@ def _parse_polygon(wkt: Any) -> list[list[list[float]]]:
     return rings
 
 
+def _parse_point(wkt: Any) -> tuple[float, float] | None:
+    if not isinstance(wkt, str):
+        return None
+    text = wkt.strip()
+    match = re.match(r"^POINT\s*\(\s*([\-\d.]+)\s+([\-\d.]+)\s*\)\s*$", text, re.IGNORECASE)
+    if not match:
+        return None
+    try:
+        return float(match.group(1)), float(match.group(2))
+    except ValueError:
+        return None
+
+
+def _parse_optional_int(value: Any) -> int | None:
+    if pd.isna(value):
+        return None
+    try:
+        return int(value)
+    except ValueError:
+        return None
+
+
+def _parse_optional_float(value: Any) -> float | None:
+    if pd.isna(value):
+        return None
+    try:
+        return float(value)
+    except ValueError:
+        return None
+
+
+def _load_pubs() -> list[dict[str, object]]:
+    pubs_path = shared.ATTRIBUTES_DIR / "Pubs.csv"
+    df = pd.read_csv(pubs_path)
+    df.columns = df.columns.map(lambda name: str(name).strip())
+
+    records: list[dict[str, object]] = []
+    for _, row in df.iterrows():
+        point = _parse_point(row.get("location"))
+        if not point:
+            continue
+        records.append(
+            {
+                "pubId": int(row.get("pubId")),
+                "location": {"x": point[0], "y": point[1]},
+                "buildingId": _parse_optional_int(row.get("buildingId")),
+                "hourlyCost": _parse_optional_float(row.get("hourlyCost")),
+                "maxOccupancy": _parse_optional_int(row.get("maxOccupancy")),
+            }
+        )
+    return records
+
+
+def _load_restaurants() -> list[dict[str, object]]:
+    restaurants_path = shared.ATTRIBUTES_DIR / "Restaurants.csv"
+    df = pd.read_csv(restaurants_path)
+    df.columns = df.columns.map(lambda name: str(name).strip())
+
+    records: list[dict[str, object]] = []
+    for _, row in df.iterrows():
+        point = _parse_point(row.get("location"))
+        if not point:
+            continue
+        records.append(
+            {
+                "restaurantId": int(row.get("restaurantId")),
+                "location": {"x": point[0], "y": point[1]},
+                "buildingId": _parse_optional_int(row.get("buildingId")),
+                "foodCost": _parse_optional_float(row.get("foodCost")),
+                "maxOccupancy": _parse_optional_int(row.get("maxOccupancy")),
+            }
+        )
+    return records
+
+
+def _load_schools() -> list[dict[str, object]]:
+    schools_path = shared.ATTRIBUTES_DIR / "Schools.csv"
+    df = pd.read_csv(schools_path)
+    df.columns = df.columns.map(lambda name: str(name).strip())
+
+    records: list[dict[str, object]] = []
+    for _, row in df.iterrows():
+        point = _parse_point(row.get("location"))
+        if not point:
+            continue
+        records.append(
+            {
+                "schoolId": int(row.get("schoolId")),
+                "location": {"x": point[0], "y": point[1]},
+                "buildingId": _parse_optional_int(row.get("buildingId")),
+                "monthlyCost": _parse_optional_float(row.get("monthlyCost")),
+                "maxEnrollment": _parse_optional_int(row.get("maxEnrollment")),
+            }
+        )
+    return records
+
+
+def _load_employers() -> list[dict[str, object]]:
+    employers_path = shared.ATTRIBUTES_DIR / "Employers.csv"
+    df = pd.read_csv(employers_path)
+    df.columns = df.columns.map(lambda name: str(name).strip())
+
+    records: list[dict[str, object]] = []
+    for _, row in df.iterrows():
+        point = _parse_point(row.get("location"))
+        if not point:
+            continue
+        records.append(
+            {
+                "employerId": int(row.get("employerId")),
+                "location": {"x": point[0], "y": point[1]},
+                "buildingId": _parse_optional_int(row.get("buildingId")),
+            }
+        )
+    return records
+
+
 def _polygon_centroid(rings: list[list[list[float]]]) -> list[float] | None:
     xs: list[float] = []
     ys: list[float] = []
@@ -136,7 +254,20 @@ def main() -> None:
     with open(OUTPUT_PATH, "w", encoding="utf-8") as fp:
         json.dump(payload, fp, ensure_ascii=True)
 
+    map_layers_payload = {
+        "generatedAt": payload["generatedAt"],
+        "buildings": records,
+        "pubs": _load_pubs(),
+        "restaurants": _load_restaurants(),
+        "schools": _load_schools(),
+        "employers": _load_employers(),
+    }
+
+    with open(MAP_LAYERS_PATH, "w", encoding="utf-8") as fp:
+        json.dump(map_layers_payload, fp, ensure_ascii=True)
+
     print(f"Saved buildings to: {OUTPUT_PATH}")
+    print(f"Saved map layers to: {MAP_LAYERS_PATH}")
 
 
 if __name__ == "__main__":
