@@ -1,0 +1,4429 @@
+{
+  "generatedAt": "2026-05-17T19:22:39.419113+00:00",
+  "employers": [
+    {
+      "employerId": 382,
+      "location": "POINT (670.3987400004884 1584.4743462106067)",
+      "buildingId": 3,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 6,
+          "quits": 6,
+          "net": 0,
+          "turnover": 12
+        }
+      ]
+    },
+    {
+      "employerId": 384,
+      "location": "POINT (880.1644882398598 4339.7016557216575)",
+      "buildingId": 527,
+      "history": [
+        {
+          "date": "2022-03-01",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 386,
+      "location": "POINT (-1349.8842287593952 1610.4623628717086)",
+      "buildingId": 596,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 388,
+      "location": "POINT (611.8427226577171 2550.7250184246723)",
+      "buildingId": 986,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 389,
+      "location": "POINT (1749.107722959826 4023.6598528872755)",
+      "buildingId": 1020,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 11,
+          "quits": 11,
+          "net": 0,
+          "turnover": 22
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 6,
+          "quits": 7,
+          "net": -1,
+          "turnover": 13
+        }
+      ]
+    },
+    {
+      "employerId": 393,
+      "location": "POINT (903.9691099852218 4220.741537877808)",
+      "buildingId": 592,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 394,
+      "location": "POINT (865.149408963124 982.7393731902811)",
+      "buildingId": 893,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 395,
+      "location": "POINT (286.586327845334 1725.5999247626096)",
+      "buildingId": 230,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 397,
+      "location": "POINT (1499.3204774627252 4304.553083816536)",
+      "buildingId": 351,
+      "history": [
+        {
+          "date": "2022-03-06",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-12",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-19",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-25",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-31",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-07",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-26",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-06-28",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-08-30",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-11-01",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-01-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-03-07",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 401,
+      "location": "POINT (-1674.8630003427375 1638.1520588255166)",
+      "buildingId": 623,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 9,
+          "quits": 8,
+          "net": 1,
+          "turnover": 17
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 406,
+      "location": "POINT (973.2374190327052 3805.640410966102)",
+      "buildingId": 347,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 407,
+      "location": "POINT (1105.2630658126443 3730.801103253373)",
+      "buildingId": 1033,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 408,
+      "location": "POINT (412.9860808984934 1033.1806025214216)",
+      "buildingId": 516,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 409,
+      "location": "POINT (1207.490101417887 4007.885706041321)",
+      "buildingId": 225,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 12,
+          "quits": 9,
+          "net": 3,
+          "turnover": 21
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 25,
+          "quits": 26,
+          "net": -1,
+          "turnover": 51
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 21,
+          "quits": 22,
+          "net": -1,
+          "turnover": 43
+        }
+      ]
+    },
+    {
+      "employerId": 411,
+      "location": "POINT (916.9315425022253 4292.958506850986)",
+      "buildingId": 527,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        }
+      ]
+    },
+    {
+      "employerId": 412,
+      "location": "POINT (496.2476568904982 1686.1524496266945)",
+      "buildingId": 1009,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 15,
+          "quits": 13,
+          "net": 2,
+          "turnover": 28
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 11,
+          "quits": 13,
+          "net": -2,
+          "turnover": 24
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 13,
+          "quits": 13,
+          "net": 0,
+          "turnover": 26
+        }
+      ]
+    },
+    {
+      "employerId": 413,
+      "location": "POINT (917.1190165763343 2102.895037900609)",
+      "buildingId": 354,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 21,
+          "quits": 21,
+          "net": 0,
+          "turnover": 42
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 11,
+          "quits": 12,
+          "net": -1,
+          "turnover": 23
+        }
+      ]
+    },
+    {
+      "employerId": 416,
+      "location": "POINT (507.31810222892034 1381.6774426214972)",
+      "buildingId": 493,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 7,
+          "quits": 6,
+          "net": 1,
+          "turnover": 13
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 418,
+      "location": "POINT (789.621374888836 1269.8729153421614)",
+      "buildingId": 472,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 420,
+      "location": "POINT (1677.4145716575592 4234.689307976414)",
+      "buildingId": 795,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 4,
+          "net": 1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-06",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-12",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-19",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-25",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-31",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-26",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-06-28",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-08-30",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-11-01",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-01-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 422,
+      "location": "POINT (1273.4344092361837 1252.930095226732)",
+      "buildingId": 317,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 425,
+      "location": "POINT (-328.8906021165615 1795.1079117198856)",
+      "buildingId": 946,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 426,
+      "location": "POINT (-904.2325319573049 1335.9506479412894)",
+      "buildingId": 256,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 427,
+      "location": "POINT (-885.2966139548657 1555.9764946386085)",
+      "buildingId": 315,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 429,
+      "location": "POINT (715.9086691087551 4418.132191398763)",
+      "buildingId": 964,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 430,
+      "location": "POINT (707.1111664944394 2001.4772026036535)",
+      "buildingId": 304,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 431,
+      "location": "POINT (-294.35496310306917 1795.1079117198856)",
+      "buildingId": 946,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 4,
+          "net": 1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 433,
+      "location": "POINT (318.94970745415804 1033.1806025214216)",
+      "buildingId": 516,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 4,
+          "net": 1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 18,
+          "quits": 18,
+          "net": 0,
+          "turnover": 36
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 14,
+          "quits": 14,
+          "net": 0,
+          "turnover": 28
+        }
+      ]
+    },
+    {
+      "employerId": 434,
+      "location": "POINT (800.6342599068146 4103.165163999878)",
+      "buildingId": 150,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 6,
+          "net": -1,
+          "turnover": 11
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 14,
+          "quits": 15,
+          "net": -1,
+          "turnover": 29
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 13,
+          "quits": 13,
+          "net": 0,
+          "turnover": 26
+        }
+      ]
+    },
+    {
+      "employerId": 435,
+      "location": "POINT (1122.7448164206246 4383.066969959758)",
+      "buildingId": 34,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 436,
+      "location": "POINT (1376.3976505541523 4861.346259046002)",
+      "buildingId": 1024,
+      "history": [
+        {
+          "date": "2022-03-01",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 437,
+      "location": "POINT (660.2070252315734 3610.994566867167)",
+      "buildingId": 511,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        }
+      ]
+    },
+    {
+      "employerId": 438,
+      "location": "POINT (2130.281249848629 4828.020411811667)",
+      "buildingId": 972,
+      "history": [
+        {
+          "date": "2022-03-01",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-02",
+          "hires": 29,
+          "quits": 19,
+          "net": 10,
+          "turnover": 48
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 18,
+          "quits": 18,
+          "net": 0,
+          "turnover": 36
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 21,
+          "quits": 21,
+          "net": 0,
+          "turnover": 42
+        }
+      ]
+    },
+    {
+      "employerId": 439,
+      "location": "POINT (585.2216880077107 3622.7180435904966)",
+      "buildingId": 395,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 15,
+          "quits": 15,
+          "net": 0,
+          "turnover": 30
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 8,
+          "quits": 8,
+          "net": 0,
+          "turnover": 16
+        }
+      ]
+    },
+    {
+      "employerId": 440,
+      "location": "POINT (448.79913987469365 4328.78174286464)",
+      "buildingId": 644,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 829,
+      "location": "POINT (-1683.9788287469512 4166.34595719268)",
+      "buildingId": 411,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 831,
+      "location": "POINT (-2200.279972988196 3572.4693137151007)",
+      "buildingId": 32,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 7,
+          "net": 0,
+          "turnover": 14
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 7,
+          "quits": 7,
+          "net": 0,
+          "turnover": 14
+        }
+      ]
+    },
+    {
+      "employerId": 832,
+      "location": "POINT (-831.9562922398395 4676.4089408349555)",
+      "buildingId": 549,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 833,
+      "location": "POINT (-1967.8258905516104 4299.950272203162)",
+      "buildingId": 93,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 834,
+      "location": "POINT (-2380.139484985013 2944.7204566724226)",
+      "buildingId": 869,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 835,
+      "location": "POINT (-2101.689510602101 4262.490673412702)",
+      "buildingId": 619,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 4,
+          "net": 1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 16,
+          "quits": 16,
+          "net": 0,
+          "turnover": 32
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 17,
+          "quits": 18,
+          "net": -1,
+          "turnover": 35
+        }
+      ]
+    },
+    {
+      "employerId": 836,
+      "location": "POINT (-692.9825370378298 4950.223259408762)",
+      "buildingId": 694,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 837,
+      "location": "POINT (-2236.8263209885145 5274.27538066303)",
+      "buildingId": 17,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 6,
+          "quits": 4,
+          "net": 2,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 838,
+      "location": "POINT (-1403.8103454524935 4457.26433207949)",
+      "buildingId": 422,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 839,
+      "location": "POINT (-1567.7082661009404 4491.2624087298655)",
+      "buildingId": 162,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 13,
+          "quits": 11,
+          "net": 2,
+          "turnover": 24
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 21,
+          "quits": 22,
+          "net": -1,
+          "turnover": 43
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 17,
+          "quits": 18,
+          "net": -1,
+          "turnover": 35
+        }
+      ]
+    },
+    {
+      "employerId": 840,
+      "location": "POINT (-1771.452216635636 4258.263943913515)",
+      "buildingId": 917,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 12,
+          "quits": 11,
+          "net": 1,
+          "turnover": 23
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 10,
+          "quits": 11,
+          "net": -1,
+          "turnover": 21
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 12,
+          "quits": 11,
+          "net": 1,
+          "turnover": 23
+        },
+        {
+          "date": "2022-03-12",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-06-28",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 841,
+      "location": "POINT (-1771.452216635636 4386.238292917949)",
+      "buildingId": 917,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 842,
+      "location": "POINT (-692.7127197082955 5040.3388326223985)",
+      "buildingId": 773,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 843,
+      "location": "POINT (-2330.4222998927135 2944.7204566724226)",
+      "buildingId": 869,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        }
+      ]
+    },
+    {
+      "employerId": 844,
+      "location": "POINT (-836.719215114457 4482.040750623393)",
+      "buildingId": 86,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 7,
+          "quits": 6,
+          "net": 1,
+          "turnover": 13
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 14,
+          "quits": 14,
+          "net": 0,
+          "turnover": 28
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 26,
+          "quits": 26,
+          "net": 0,
+          "turnover": 52
+        }
+      ]
+    },
+    {
+      "employerId": 845,
+      "location": "POINT (-2363.1419320065197 2673.8808116595965)",
+      "buildingId": 373,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 846,
+      "location": "POINT (-996.7808287569317 4750.184044489247)",
+      "buildingId": 966,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 847,
+      "location": "POINT (-1680.9362530924764 4258.263943913515)",
+      "buildingId": 917,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 848,
+      "location": "POINT (-468.02948129574554 4779.921390126033)",
+      "buildingId": 121,
+      "history": [
+        {
+          "date": "2022-03-06",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-12",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-19",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-25",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-31",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-07",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-26",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-06-28",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-08-30",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-11-01",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-01-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-03-07",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 849,
+      "location": "POINT (-2231.66793504236 2598.728790351024)",
+      "buildingId": 426,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        }
+      ]
+    },
+    {
+      "employerId": 850,
+      "location": "POINT (-2364.178807858101 5198.1957151603365)",
+      "buildingId": 485,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 851,
+      "location": "POINT (-1398.3957137180148 4280.0291470642405)",
+      "buildingId": 544,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 20,
+          "quits": 18,
+          "net": 2,
+          "turnover": 38
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 13,
+          "quits": 14,
+          "net": -1,
+          "turnover": 27
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 22,
+          "quits": 22,
+          "net": 0,
+          "turnover": 44
+        }
+      ]
+    },
+    {
+      "employerId": 852,
+      "location": "POINT (-820.4751468446739 4770.301635511239)",
+      "buildingId": 474,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 853,
+      "location": "POINT (-811.6790007765514 4695.717947460926)",
+      "buildingId": 549,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 7,
+          "quits": 6,
+          "net": 1,
+          "turnover": 13
+        }
+      ]
+    },
+    {
+      "employerId": 855,
+      "location": "POINT (-784.6236528229551 4940.6907489765335)",
+      "buildingId": 375,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 856,
+      "location": "POINT (-468.02948129574554 4846.264154979615)",
+      "buildingId": 121,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 11,
+          "quits": 11,
+          "net": 0,
+          "turnover": 22
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 6,
+          "quits": 7,
+          "net": -1,
+          "turnover": 13
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        }
+      ]
+    },
+    {
+      "employerId": 857,
+      "location": "POINT (-1096.0839701505342 4912.223245927846)",
+      "buildingId": 190,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 31,
+          "quits": 32,
+          "net": -1,
+          "turnover": 63
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 23,
+          "quits": 22,
+          "net": 1,
+          "turnover": 45
+        }
+      ]
+    },
+    {
+      "employerId": 858,
+      "location": "POINT (-1072.87107729431 4660.49395382038)",
+      "buildingId": 937,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 860,
+      "location": "POINT (-836.8537841209326 4575.535706396641)",
+      "buildingId": 132,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 861,
+      "location": "POINT (-2235.2922404843403 5106.71812915923)",
+      "buildingId": 151,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 8,
+          "net": -1,
+          "turnover": 15
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        }
+      ]
+    },
+    {
+      "employerId": 862,
+      "location": "POINT (-1475.3580476204697 4473.948598738494)",
+      "buildingId": 578,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-06",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-12",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-19",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-25",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-31",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-04",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-05",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-04-26",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-06-28",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-08-30",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-11-01",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2023-01-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 865,
+      "location": "POINT (-1968.219929915483 4032.689324603983)",
+      "buildingId": 862,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 867,
+      "location": "POINT (-1903.2691698783528 4549.78019591636)",
+      "buildingId": 118,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 22,
+          "quits": 21,
+          "net": 1,
+          "turnover": 43
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 14,
+          "quits": 15,
+          "net": -1,
+          "turnover": 29
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 25,
+          "quits": 25,
+          "net": 0,
+          "turnover": 50
+        }
+      ]
+    },
+    {
+      "employerId": 868,
+      "location": "POINT (-1982.7850080737494 4381.550830536558)",
+      "buildingId": 416,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 12,
+          "quits": 9,
+          "net": 3,
+          "turnover": 21
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 7,
+          "net": 0,
+          "turnover": 14
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        }
+      ]
+    },
+    {
+      "employerId": 869,
+      "location": "POINT (-855.2484275272525 4593.770197855418)",
+      "buildingId": 132,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 871,
+      "location": "POINT (-2202.659451917056 3456.928318795747)",
+      "buildingId": 297,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 875,
+      "location": "POINT (-981.7218378806529 4774.377841270679)",
+      "buildingId": 966,
+      "history": [
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 876,
+      "location": "POINT (-1670.937273533352 4186.622203455871)",
+      "buildingId": 411,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 877,
+      "location": "POINT (-1784.078473278472 4571.813634096875)",
+      "buildingId": 670,
+      "history": [
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 878,
+      "location": "POINT (-1104.6810874856722 4468.581510395101)",
+      "buildingId": 205,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 17,
+          "quits": 18,
+          "net": -1,
+          "turnover": 35
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 11,
+          "quits": 11,
+          "net": 0,
+          "turnover": 22
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        }
+      ]
+    },
+    {
+      "employerId": 880,
+      "location": "POINT (-2330.4222998927135 2982.861013084039)",
+      "buildingId": 869,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 882,
+      "location": "POINT (-1241.6483470328672 3722.01804223004)",
+      "buildingId": 106,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 9,
+          "quits": 8,
+          "net": 1,
+          "turnover": 17
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 11,
+          "quits": 12,
+          "net": -1,
+          "turnover": 23
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 11,
+          "quits": 10,
+          "net": 1,
+          "turnover": 21
+        }
+      ]
+    },
+    {
+      "employerId": 884,
+      "location": "POINT (-1968.219929915483 3886.9152696618244)",
+      "buildingId": 862,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 14,
+          "quits": 13,
+          "net": 1,
+          "turnover": 27
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 8,
+          "quits": 8,
+          "net": 0,
+          "turnover": 16
+        }
+      ]
+    },
+    {
+      "employerId": 885,
+      "location": "POINT (-2195.7632940592357 5124.807852313174)",
+      "buildingId": 151,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 887,
+      "location": "POINT (-1590.604526018032 4166.9915883892645)",
+      "buildingId": 339,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 888,
+      "location": "POINT (-1034.4629823865148 3711.3026228381386)",
+      "buildingId": 254,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 10,
+          "quits": 7,
+          "net": 3,
+          "turnover": 17
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 17,
+          "quits": 19,
+          "net": -2,
+          "turnover": 36
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 11,
+          "quits": 12,
+          "net": -1,
+          "turnover": 23
+        },
+        {
+          "date": "2022-04-11",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 890,
+      "location": "POINT (-2240.4913941583936 5198.567602243795)",
+      "buildingId": 781,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1279,
+      "location": "POINT (-654.0366978538146 3632.0760648960236)",
+      "buildingId": 923,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1280,
+      "location": "POINT (-501.42676062779447 3608.0722709059037)",
+      "buildingId": 489,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 16,
+          "quits": 16,
+          "net": 0,
+          "turnover": 32
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 25,
+          "quits": 26,
+          "net": -1,
+          "turnover": 51
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 34,
+          "quits": 34,
+          "net": 0,
+          "turnover": 68
+        }
+      ]
+    },
+    {
+      "employerId": 1281,
+      "location": "POINT (-250.10250760487784 4857.0064836405545)",
+      "buildingId": 580,
+      "history": [
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-04-03",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-04-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-04-05",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1282,
+      "location": "POINT (-746.0297799695958 4008.345279959909)",
+      "buildingId": 765,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 6,
+          "net": -2,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        }
+      ]
+    },
+    {
+      "employerId": 1283,
+      "location": "POINT (-2909.0282137217323 6510.130398749252)",
+      "buildingId": 870,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1284,
+      "location": "POINT (-746.105838089235 5429.550547514793)",
+      "buildingId": 260,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1285,
+      "location": "POINT (170.74694042286592 4771.135720847398)",
+      "buildingId": 595,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 15,
+          "quits": 11,
+          "net": 4,
+          "turnover": 26
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 33,
+          "quits": 36,
+          "net": -3,
+          "turnover": 69
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 21,
+          "quits": 21,
+          "net": 0,
+          "turnover": 42
+        }
+      ]
+    },
+    {
+      "employerId": 1287,
+      "location": "POINT (-5.816781980895537 3582.204933328363)",
+      "buildingId": 255,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 19,
+          "quits": 19,
+          "net": 0,
+          "turnover": 38
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 19,
+          "quits": 18,
+          "net": 1,
+          "turnover": 37
+        }
+      ]
+    },
+    {
+      "employerId": 1288,
+      "location": "POINT (-657.7838584306992 5932.81369824289)",
+      "buildingId": 680,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1289,
+      "location": "POINT (-3528.306824887696 4886.547525269254)",
+      "buildingId": 441,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1290,
+      "location": "POINT (-625.2259566520925 4283.435087651933)",
+      "buildingId": 755,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 6,
+          "quits": 8,
+          "net": -2,
+          "turnover": 14
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 1291,
+      "location": "POINT (-2010.8517708960426 5283.76492656323)",
+      "buildingId": 475,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 31,
+          "quits": 27,
+          "net": 4,
+          "turnover": 58
+        }
+      ]
+    },
+    {
+      "employerId": 1292,
+      "location": "POINT (-170.84228756724124 3790.7387811979065)",
+      "buildingId": 664,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1293,
+      "location": "POINT (-1912.6667454275262 5288.50006673243)",
+      "buildingId": 333,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1294,
+      "location": "POINT (-580.0171765817988 5936.726442233701)",
+      "buildingId": 49,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1297,
+      "location": "POINT (-3255.070596103328 5479.41178070503)",
+      "buildingId": 775,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 7,
+          "quits": 4,
+          "net": 3,
+          "turnover": 11
+        },
+        {
+          "date": "2022-04-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-04-05",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 1298,
+      "location": "POINT (-3569.215604711074 4903.19250465635)",
+      "buildingId": 441,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1299,
+      "location": "POINT (-769.6207629156387 3991.9429115396124)",
+      "buildingId": 765,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1300,
+      "location": "POINT (-251.55200766343 4701.616285011303)",
+      "buildingId": 561,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 11,
+          "quits": 10,
+          "net": 1,
+          "turnover": 21
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 20,
+          "quits": 20,
+          "net": 0,
+          "turnover": 40
+        }
+      ]
+    },
+    {
+      "employerId": 1301,
+      "location": "POINT (-2847.855610673995 6663.900855198909)",
+      "buildingId": 408,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1302,
+      "location": "POINT (-3532.3417312509846 5586.896700834855)",
+      "buildingId": 76,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 2,
+          "net": -2,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1304,
+      "location": "POINT (-3325.5754177846347 5307.883074335268)",
+      "buildingId": 410,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1305,
+      "location": "POINT (-416.1482587338951 5854.826833733975)",
+      "buildingId": 64,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 8,
+          "quits": 7,
+          "net": 1,
+          "turnover": 15
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 6,
+          "quits": 5,
+          "net": 1,
+          "turnover": 11
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-04-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-04-05",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1306,
+      "location": "POINT (-643.7038073647876 5917.381045442618)",
+      "buildingId": 680,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1309,
+      "location": "POINT (-3048.226902478323 6283.8148275615595)",
+      "buildingId": 88,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 5,
+          "net": -2,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1310,
+      "location": "POINT (-3061.6662672300545 5929.835547456925)",
+      "buildingId": 434,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1311,
+      "location": "POINT (-1730.46161795225 5925.860203271363)",
+      "buildingId": 401,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1312,
+      "location": "POINT (-271.3160303970743 4985.574640487972)",
+      "buildingId": 429,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1314,
+      "location": "POINT (-3366.855921141151 5265.173730073946)",
+      "buildingId": 410,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 6,
+          "quits": 5,
+          "net": 1,
+          "turnover": 11
+        }
+      ]
+    },
+    {
+      "employerId": 1315,
+      "location": "POINT (-1275.0132591831693 5248.064077146062)",
+      "buildingId": 156,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 2,
+          "net": -2,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1316,
+      "location": "POINT (447.7528813037526 4446.320032225456)",
+      "buildingId": 1034,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1317,
+      "location": "POINT (-2616.4800271638437 6541.191811600034)",
+      "buildingId": 588,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 6,
+          "net": 1,
+          "turnover": 13
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 6,
+          "quits": 6,
+          "net": 0,
+          "turnover": 12
+        }
+      ]
+    },
+    {
+      "employerId": 1318,
+      "location": "POINT (-525.2895730956825 4289.093106712981)",
+      "buildingId": 343,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1319,
+      "location": "POINT (-3366.855921141151 5307.883074335268)",
+      "buildingId": 410,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 7,
+          "quits": 6,
+          "net": 1,
+          "turnover": 13
+        }
+      ]
+    },
+    {
+      "employerId": 1320,
+      "location": "POINT (-840.6753278188867 5842.41531956319)",
+      "buildingId": 284,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1321,
+      "location": "POINT (-2616.4800271638437 6497.734086456471)",
+      "buildingId": 588,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 9,
+          "quits": 9,
+          "net": 0,
+          "turnover": 18
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 10,
+          "quits": 10,
+          "net": 0,
+          "turnover": 20
+        }
+      ]
+    },
+    {
+      "employerId": 1324,
+      "location": "POINT (-525.2260085411027 4093.343371642296)",
+      "buildingId": 486,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 4,
+          "quits": 3,
+          "net": 1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1326,
+      "location": "POINT (-3385.9171428962177 6106.353933788713)",
+      "buildingId": 47,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1327,
+      "location": "POINT (-671.8639094966109 5917.381045442618)",
+      "buildingId": 680,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1328,
+      "location": "POINT (-3044.6480084760724 5950.665941497604)",
+      "buildingId": 434,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1329,
+      "location": "POINT (-3149.9034099651917 5907.34610112186)",
+      "buildingId": 413,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1330,
+      "location": "POINT (-344.87724461848586 3683.020262283885)",
+      "buildingId": 409,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 6,
+          "net": -1,
+          "turnover": 11
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1332,
+      "location": "POINT (-749.8180735661666 5847.491401868583)",
+      "buildingId": 584,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 51,
+          "quits": 38,
+          "net": 13,
+          "turnover": 89
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 38,
+          "quits": 39,
+          "net": -1,
+          "turnover": 77
+        }
+      ]
+    },
+    {
+      "employerId": 1333,
+      "location": "POINT (-1936.1772434479183 5280.458797272058)",
+      "buildingId": 333,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1335,
+      "location": "POINT (-459.47416762396665 3608.0722709059037)",
+      "buildingId": 489,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1336,
+      "location": "POINT (-746.105838089235 5478.005756514865)",
+      "buildingId": 260,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1337,
+      "location": "POINT (-2488.0018597976323 5885.7340875007185)",
+      "buildingId": 269,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1339,
+      "location": "POINT (-3257.563509525645 5415.033051466755)",
+      "buildingId": 8,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        }
+      ]
+    },
+    {
+      "employerId": 1340,
+      "location": "POINT (-633.2986927355175 5354.847863423291)",
+      "buildingId": 767,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        }
+      ]
+    },
+    {
+      "employerId": 1341,
+      "location": "POINT (-1033.1767361471275 5766.179874318859)",
+      "buildingId": 454,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1734,
+      "location": "POINT (-3480.17040400516 6856.274228255146)",
+      "buildingId": 261,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1735,
+      "location": "POINT (-3837.636675203619 5492.86911075103)",
+      "buildingId": 749,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 6,
+          "quits": 5,
+          "net": 1,
+          "turnover": 11
+        }
+      ]
+    },
+    {
+      "employerId": 1738,
+      "location": "POINT (-3796.1198513891923 6367.922072582076)",
+      "buildingId": 627,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        }
+      ]
+    },
+    {
+      "employerId": 1739,
+      "location": "POINT (-3873.9638746980395 5651.680013350011)",
+      "buildingId": 1028,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 12,
+          "quits": 13,
+          "net": -1,
+          "turnover": 25
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 15,
+          "quits": 15,
+          "net": 0,
+          "turnover": 30
+        }
+      ]
+    },
+    {
+      "employerId": 1741,
+      "location": "POINT (-3707.0822804277777 5086.911895550575)",
+      "buildingId": 990,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1742,
+      "location": "POINT (-3297.4064056514912 7156.152298524017)",
+      "buildingId": 331,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 7,
+          "net": 0,
+          "turnover": 14
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        }
+      ]
+    },
+    {
+      "employerId": 1743,
+      "location": "POINT (-3748.3766341391333 5264.252683412442)",
+      "buildingId": 808,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 4,
+          "net": -2,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 5,
+          "quits": 2,
+          "net": 3,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 5,
+          "quits": 7,
+          "net": -2,
+          "turnover": 12
+        }
+      ]
+    },
+    {
+      "employerId": 1744,
+      "location": "POINT (-3588.3242190090755 6798.416765323038)",
+      "buildingId": 187,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 3,
+          "net": -2,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 7,
+          "quits": 5,
+          "net": 2,
+          "turnover": 12
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 6,
+          "net": -2,
+          "turnover": 10
+        }
+      ]
+    },
+    {
+      "employerId": 1745,
+      "location": "POINT (-3209.738139187618 6557.838945386657)",
+      "buildingId": 953,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 34,
+          "quits": 35,
+          "net": -1,
+          "turnover": 69
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 25,
+          "quits": 24,
+          "net": 1,
+          "turnover": 49
+        }
+      ]
+    },
+    {
+      "employerId": 1746,
+      "location": "POINT (-3973.0979051297536 5154.380353332814)",
+      "buildingId": 912,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1747,
+      "location": "POINT (-3697.997083892924 5406.876829329331)",
+      "buildingId": 37,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 1748,
+      "location": "POINT (-3098.599452999811 6628.6729119697975)",
+      "buildingId": 160,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 29,
+          "quits": 30,
+          "net": -1,
+          "turnover": 59
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 28,
+          "quits": 27,
+          "net": 1,
+          "turnover": 55
+        }
+      ]
+    },
+    {
+      "employerId": 1749,
+      "location": "POINT (-3221.2402871851464 6153.955275915399)",
+      "buildingId": 932,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1751,
+      "location": "POINT (-4515.907604161345 4631.612406745221)",
+      "buildingId": 604,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1753,
+      "location": "POINT (-3472.3085856843627 6781.220179840805)",
+      "buildingId": 807,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1754,
+      "location": "POINT (-3455.755866902949 6846.648090702398)",
+      "buildingId": 261,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 1756,
+      "location": "POINT (-3556.8182888817087 6641.646724169853)",
+      "buildingId": 277,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 14,
+          "quits": 15,
+          "net": -1,
+          "turnover": 29
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 13,
+          "quits": 12,
+          "net": 1,
+          "turnover": 25
+        }
+      ]
+    },
+    {
+      "employerId": 1757,
+      "location": "POINT (-3741.432303349839 5162.439641767197)",
+      "buildingId": 949,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 6,
+          "net": -2,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 13,
+          "quits": 13,
+          "net": 0,
+          "turnover": 26
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 14,
+          "quits": 11,
+          "net": 3,
+          "turnover": 25
+        }
+      ]
+    },
+    {
+      "employerId": 1758,
+      "location": "POINT (-3742.540064583217 5916.875246852485)",
+      "buildingId": 267,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 4,
+          "net": -1,
+          "turnover": 7
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 1759,
+      "location": "POINT (-3699.8519673978653 6540.218682083818)",
+      "buildingId": 305,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 3,
+          "net": -1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 4,
+          "quits": 4,
+          "net": 0,
+          "turnover": 8
+        }
+      ]
+    },
+    {
+      "employerId": 1760,
+      "location": "POINT (-3210.355459657344 6648.152454626876)",
+      "buildingId": 543,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 13,
+          "quits": 14,
+          "net": -1,
+          "turnover": 27
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 19,
+          "quits": 20,
+          "net": -1,
+          "turnover": 39
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 17,
+          "quits": 17,
+          "net": 0,
+          "turnover": 34
+        }
+      ]
+    },
+    {
+      "employerId": 1761,
+      "location": "POINT (-3804.319468397756 5928.891714229324)",
+      "buildingId": 26,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1762,
+      "location": "POINT (-3195.7106978818483 6669.514454239059)",
+      "buildingId": 543,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1763,
+      "location": "POINT (-3136.1278958093117 6628.6729119697975)",
+      "buildingId": 160,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 23,
+          "quits": 21,
+          "net": 2,
+          "turnover": 44
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 17,
+          "quits": 18,
+          "net": -1,
+          "turnover": 35
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 30,
+          "quits": 30,
+          "net": 0,
+          "turnover": 60
+        }
+      ]
+    },
+    {
+      "employerId": 1764,
+      "location": "POINT (-3233.0731689874065 6116.185085735686)",
+      "buildingId": 932,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 10,
+          "quits": 12,
+          "net": -2,
+          "turnover": 22
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 14,
+          "quits": 14,
+          "net": 0,
+          "turnover": 28
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 18,
+          "quits": 18,
+          "net": 0,
+          "turnover": 36
+        }
+      ]
+    },
+    {
+      "employerId": 1765,
+      "location": "POINT (-3556.8182888817087 6705.3104479782905)",
+      "buildingId": 277,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 16,
+          "quits": 15,
+          "net": 1,
+          "turnover": 31
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 20,
+          "quits": 21,
+          "net": -1,
+          "turnover": 41
+        }
+      ]
+    },
+    {
+      "employerId": 1766,
+      "location": "POINT (-3209.738139187618 6522.748316725878)",
+      "buildingId": 953,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 1,
+          "net": 1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1769,
+      "location": "POINT (-3864.510743062192 5591.096494771966)",
+      "buildingId": 695,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 5,
+          "quits": 5,
+          "net": 0,
+          "turnover": 10
+        }
+      ]
+    },
+    {
+      "employerId": 1770,
+      "location": "POINT (-3796.1198513891923 6330.793189700022)",
+      "buildingId": 627,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1771,
+      "location": "POINT (-3724.8780422091695 6559.417348100849)",
+      "buildingId": 305,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 0,
+          "net": 1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1774,
+      "location": "POINT (-3448.9410759401935 6764.519625514673)",
+      "buildingId": 807,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 5,
+          "net": -2,
+          "turnover": 8
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 25,
+          "quits": 13,
+          "net": 12,
+          "turnover": 38
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 23,
+          "quits": 25,
+          "net": -2,
+          "turnover": 48
+        }
+      ]
+    },
+    {
+      "employerId": 1775,
+      "location": "POINT (-4150.694543856866 5079.325752156183)",
+      "buildingId": 28,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1777,
+      "location": "POINT (-3676.9008460947675 6798.416765323038)",
+      "buildingId": 187,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 4,
+          "quits": 5,
+          "net": -1,
+          "turnover": 9
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 6,
+          "quits": 6,
+          "net": 0,
+          "turnover": 12
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 8,
+          "quits": 6,
+          "net": 2,
+          "turnover": 14
+        }
+      ]
+    },
+    {
+      "employerId": 1779,
+      "location": "POINT (-4024.211498692567 5693.927626980997)",
+      "buildingId": 175,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1781,
+      "location": "POINT (-3480.17040400516 6856.274228255146)",
+      "buildingId": 261,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1783,
+      "location": "POINT (-3717.4879855839513 6703.2047004256)",
+      "buildingId": 788,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 3,
+          "net": -2,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1784,
+      "location": "POINT (-4017.808180711095 6949.612770383012)",
+      "buildingId": 453,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1786,
+      "location": "POINT (-3300.166421375523 6148.413135904235)",
+      "buildingId": 738,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1788,
+      "location": "POINT (-3463.167738075059 7836.545593061912)",
+      "buildingId": 183,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1789,
+      "location": "POINT (-3813.2913987997836 5750.038441232494)",
+      "buildingId": 877,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    },
+    {
+      "employerId": 1790,
+      "location": "POINT (-3927.9102395808727 5570.155155320008)",
+      "buildingId": 285,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 2,
+          "net": -1,
+          "turnover": 3
+        }
+      ]
+    },
+    {
+      "employerId": 1791,
+      "location": "POINT (-3209.407405382886 6191.725466095112)",
+      "buildingId": 932,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 10,
+          "quits": 10,
+          "net": 0,
+          "turnover": 20
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 49,
+          "quits": 48,
+          "net": 1,
+          "turnover": 97
+        }
+      ]
+    },
+    {
+      "employerId": 1792,
+      "location": "POINT (-3833.6935285901764 5804.401063149466)",
+      "buildingId": 877,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 3,
+          "quits": 2,
+          "net": 1,
+          "turnover": 5
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 8,
+          "quits": 8,
+          "net": 0,
+          "turnover": 16
+        }
+      ]
+    },
+    {
+      "employerId": 1793,
+      "location": "POINT (-3313.211912858075 6185.8337275541235)",
+      "buildingId": 738,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 8,
+          "quits": 7,
+          "net": 1,
+          "turnover": 15
+        },
+        {
+          "date": "2022-03-03",
+          "hires": 1,
+          "quits": 3,
+          "net": -2,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 3,
+          "quits": 3,
+          "net": 0,
+          "turnover": 6
+        }
+      ]
+    },
+    {
+      "employerId": 1795,
+      "location": "POINT (-3267.606054814424 6452.56705940432)",
+      "buildingId": 953,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 0,
+          "quits": 1,
+          "net": -1,
+          "turnover": 1
+        }
+      ]
+    },
+    {
+      "employerId": 1796,
+      "location": "POINT (-3725.261225376805 6345.551342169127)",
+      "buildingId": 1011,
+      "history": [
+        {
+          "date": "2022-03-02",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        }
+      ]
+    },
+    {
+      "employerId": 1797,
+      "location": "POINT (-3759.480918044369 5179.602735764589)",
+      "buildingId": 949,
+      "history": [
+        {
+          "date": "2022-03-03",
+          "hires": 2,
+          "quits": 2,
+          "net": 0,
+          "turnover": 4
+        },
+        {
+          "date": "2022-03-04",
+          "hires": 1,
+          "quits": 1,
+          "net": 0,
+          "turnover": 2
+        }
+      ]
+    }
+  ]
+}

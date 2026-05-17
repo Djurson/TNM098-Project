@@ -1,40 +1,14 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
-import businesses from "@/public/businesses.json"
-import { Pub, Resturant } from "./types"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
-export function ParseBusinessJSON(): Record<number, Pub | Resturant> {
-  const parsedData: Record<number, Pub | Resturant> = {}
+export const GRAPH_MARGIN_TOP = 20;
+export const GRAPH_MARGIN_RIGHT = 40;
+export const GRAPH_MARGIN_BOTTOM = 50;
+export const GRAPH_MARGIN_LEFT = 35;
 
-  Object.entries(businesses).forEach(([id, business]) => {
-    const match = business.location.match(
-      /POINT\s*\(\s*([-\d.]+)\s+([-\d.]+)\s*\)/
-    )
-    const x = match ? parseFloat(match[1]) : 0
-    const y = match ? parseFloat(match[2]) : 0
-
-    if ("hourlyCost" in business) {
-      parsedData[Number(id)] = {
-        id: Number(id),
-        hourlyCost: Number(business.hourlyCost ?? 0),
-        maxOccupancy: Number(business.maxOccupancy ?? 0),
-        location: { x, y },
-        buildingId: Number(business.buildingId ?? 0),
-      }
-    } else {
-      parsedData[Number(id)] = {
-        id: Number(id),
-        foodCost: Number(business.foodCost ?? 0),
-        maxOccupancy: Number(business.maxOccupancy ?? 0),
-        location: { x, y },
-        buildingId: Number(business.buildingId ?? 0),
-      }
-    }
-  })
-
-  return parsedData
-}
+export const HEX_RADIUS = 20;
+export const SCATTER_POINTS_RADIUS = 15;

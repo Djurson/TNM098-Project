@@ -1,7 +1,5 @@
-import CityMap from "@/components/citymap"
-import { ParseBusinessJSON } from "@/lib/utils"
+import CityMap from "@/components/citymap";
 
 export default function Page() {
-  const data = ParseBusinessJSON()
-  return <CityMap data={data} />
+  return <CityMap />;
 }
