@@ -158,7 +158,6 @@ def main() -> None:
         )
 
     payload = {
-        "generatedAt": pd.Timestamp.utcnow().isoformat(),
         "summary": summary,
         "venues": venue_records,
     }
