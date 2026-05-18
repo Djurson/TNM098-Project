@@ -1,5 +1,4 @@
-import { extent, format, interpolateOrRd, max, scaleLinear, scaleSequential, select, sum, axisBottom, axisLeft, axisTop, type ScaleLinear, type ScaleSequential, type Selection } from "d3";
-import { GRAPH_MARGIN_BOTTOM, GRAPH_MARGIN_LEFT, GRAPH_MARGIN_RIGHT, GRAPH_MARGIN_TOP } from "./utils";
+import { select, axisBottom, axisLeft, axisTop, ScaleLinear, Selection } from "d3";
 import { TooltipRef } from "@/components/chart-tooltip";
 import { TooltipData } from "./types";
 
@@ -31,82 +30,6 @@ type Data = any;
 export const clearSvg = (svgElement: SVGSVGElement) => select(svgElement).selectAll("*").remove();
 
 export const createSvgRoot = (svgElement: SVGSVGElement, width: number, height: number) => select(svgElement).attr("viewBox", `0 0 ${width} ${height}`).attr("preserveAspectRatio", "xMidYMid meet");
-
-export function createPositionScales(
-  data: Data[],
-  size: ChartSize,
-  margins: ChartMargins = {
-    top: GRAPH_MARGIN_TOP,
-    bottom: GRAPH_MARGIN_BOTTOM,
-    left: GRAPH_MARGIN_LEFT,
-    right: GRAPH_MARGIN_RIGHT,
-  },
-): PositionScales | undefined {
-  const xExtent = extent(data, (d) => d.position.x);
-  const yExtent = extent(data, (d) => d.position.y);
-
-  if (xExtent[0] === undefined || xExtent[1] === undefined || yExtent[0] === undefined || yExtent[1] === undefined) return;
-
-  const x = scaleLinear()
-    .domain([xExtent[0], xExtent[1] + 100])
-    .nice()
-    .rangeRound([margins.left, size.width - margins.right]);
-
-  const y = scaleLinear()
-    .domain(yExtent)
-    .nice()
-    .rangeRound(INVERTED_Y_AXIS ? [margins.top, size.height - margins.bottom] : [size.height - margins.bottom, margins.top]);
-
-  return { x, y };
-}
-
-// export function createDensityColorScale(bins: HexbinBin<EyeTrackDataPoint>[]): {
-//   scale: ScaleSequential<string, never>;
-//   domain: [number, number];
-// } {
-//   const maxDuration = max(bins, (bin) => sum(bin, (d) => d.gazeDuration)) || 1;
-//   const domain: [number, number] = [0, maxDuration];
-//   const scale = scaleSequential(interpolateOrRd).domain(domain);
-
-//   return { scale, domain };
-// }
-
-export function calculateContextSvgWidth(colorDomain: [number, number], legend_text: string) {
-  const measureTextWidth = (text: string, font = "600 12px sans-serif") => {
-    if (typeof document === "undefined") return text.length * 8;
-
-    const canvas = document.createElement("canvas");
-    const context = canvas.getContext("2d");
-    if (!context) return text.length * 8;
-
-    context.font = font;
-    return Math.ceil(context.measureText(text).width);
-  };
-
-  const legendWidth = 28;
-  const tickLabelFormat = format("d");
-  const tickLabels = scaleLinear()
-    .domain(colorDomain)
-    .ticks(5)
-    .map((tick) => tickLabelFormat(tick));
-  const maxTickWidth = Math.max(...tickLabels.map((label) => measureTextWidth(label)), 0);
-  const labelWidth = measureTextWidth(legend_text);
-
-  const horizontalPadding = 8;
-  const axisBlockWidth = legendWidth + 6 + maxTickWidth;
-  const contentWidth = Math.max(axisBlockWidth, labelWidth);
-
-  return horizontalPadding * 2 + contentWidth;
-}
-
-/**
- * Creates an opacity scale based on GazeDuration.
- * Maps the minimum duration to minOpacity and the max duration to maxOpacity.
- */
-export function createOpacityScale(data: Data[], minOpacity: number = 0.15, maxOpacity: number = 0.85): ScaleLinear<number, number> {
-  const maxDuration = max(data, (d) => d.gazeDuration) || 1;
-  return scaleLinear().domain([0, maxDuration]).range([minOpacity, maxOpacity]);
-}
 
 /**
  * Reusable function to draw standard X and Y axes.
@@ -198,51 +121,12 @@ export function createCrosshair(root: Selection<SVGSVGElement, unknown, null, un
   };
 }
 
-export function initializeBasePlot(config: { svgElement: SVGSVGElement | null; data: Data[]; width: number; height: number; margins?: { top: number; right: number; bottom: number; left: number }; xAxisLabel: string; yAxisLabel: string; clipId: string }) {
-  if (!config.margins)
-    config.margins = {
-      top: GRAPH_MARGIN_TOP,
-      bottom: GRAPH_MARGIN_BOTTOM,
-      left: GRAPH_MARGIN_LEFT,
-      right: GRAPH_MARGIN_RIGHT,
-    };
-
-  const { svgElement, data, width, height, margins, xAxisLabel, yAxisLabel, clipId } = config;
-
-  if (!svgElement || !width || !height || data.length === 0) {
-    if (svgElement) clearSvg(svgElement);
-    return null;
-  }
-
-  // Create Scales
-  const scales = createPositionScales(data, { width, height });
-  if (!scales) {
-    clearSvg(svgElement);
-    return null;
-  }
-
-  // Setup SVG Root
-  const root = createSvgRoot(svgElement, width, height);
-  root.selectAll("*").remove();
-
-  // Draw standard base elements
-  drawAxes(root, scales, { width, height }, margins, xAxisLabel, yAxisLabel);
-  createClipPath(root, clipId, { width, height }, margins);
-
-  // Create Crosshair
-  const crosshair = createCrosshair(root, { width, height }, margins);
-
-  return { root, scales, crosshair };
-}
-
-// 1. Add `| null` to the crosshair parameter type
 export function applyChartInteractions<T>(selection: Selection<any, T, any, any>, crosshair: { show: (x: number, y: number) => void; hide: () => void } | null, tooltip: TooltipRef | null, config: InteractionConfig<T>) {
   selection
     .on("mouseover", function (e, d) {
       config.onHoverIn(this, d);
 
       const pos = config.getCrosshairPos(d);
-      // 2. Add the question mark here
       crosshair?.show(pos.x, pos.y);
 
       tooltip?.show(config.getTooltipData(d), e.clientX, e.clientY);

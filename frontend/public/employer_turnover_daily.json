@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T19:22:39.419113+00:00",
+  "generatedAt": "2026-05-18T12:41:48.081885+00:00",
   "employers": [
     {
       "employerId": 382,
@@ -8,52 +8,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 6,
-          "quits": 6,
-          "net": 0,
-          "turnover": 12
-        }
-      ]
-    },
-    {
-      "employerId": 384,
-      "location": "POINT (880.1644882398598 4339.7016557216575)",
-      "buildingId": 527,
-      "history": [
-        {
-          "date": "2022-03-01",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 386,
-      "location": "POINT (-1349.8842287593952 1610.4623628717086)",
-      "buildingId": 596,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -64,24 +42,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -92,45 +67,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
-        {
-          "date": "2022-03-03",
-          "hires": 11,
-          "quits": 11,
-          "net": 0,
-          "turnover": 22
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 6,
-          "quits": 7,
-          "net": -1,
-          "turnover": 13
-        }
-      ]
-    },
-    {
-      "employerId": 393,
-      "location": "POINT (903.9691099852218 4220.741537877808)",
-      "buildingId": 592,
-      "history": [
         {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -143,43 +103,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 395,
-      "location": "POINT (286.586327845334 1725.5999247626096)",
-      "buildingId": 230,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -189,95 +125,13 @@
       "buildingId": 351,
       "history": [
         {
-          "date": "2022-03-06",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-12",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-19",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-25",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-31",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-07",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
           "date": "2022-04-11",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-26",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-06-28",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-08-30",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-11-01",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-01-03",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-03-07",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -288,38 +142,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 9,
-          "quits": 8,
-          "net": 1,
-          "turnover": 17
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
-        }
-      ]
-    },
-    {
-      "employerId": 406,
-      "location": "POINT (973.2374190327052 3805.640410966102)",
-      "buildingId": 347,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -332,29 +169,10 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 408,
-      "location": "POINT (412.9860808984934 1033.1806025214216)",
-      "buildingId": 516,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -365,24 +183,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 12,
-          "quits": 9,
-          "net": 3,
-          "turnover": 21
+          "hires": 3,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 3,
+          "turnover": 3,
+          "turnoverRate": 0.75
         },
         {
           "date": "2022-03-03",
-          "hires": 25,
-          "quits": 26,
-          "net": -1,
-          "turnover": 51
+          "hires": 2,
+          "quits": 3,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 5,
+          "turnoverRate": 1.6667
         },
         {
           "date": "2022-03-04",
-          "hires": 21,
-          "quits": 22,
-          "net": -1,
-          "turnover": 43
+          "hires": 1,
+          "quits": 2,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 1.5
         }
       ]
     },
@@ -393,10 +217,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -407,24 +233,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 15,
-          "quits": 13,
-          "net": 2,
-          "turnover": 28
+          "hires": 2,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 2,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 11,
-          "quits": 13,
-          "net": -2,
-          "turnover": 24
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 13,
-          "quits": 13,
-          "net": 0,
-          "turnover": 26
+          "hires": 0,
+          "quits": 2,
+          "headcount": 2,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -435,24 +258,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 21,
-          "quits": 21,
-          "net": 0,
-          "turnover": 42
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 11,
-          "quits": 12,
-          "net": -1,
-          "turnover": 23
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -463,38 +292,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 7,
-          "quits": 6,
-          "net": 1,
-          "turnover": 13
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
-        }
-      ]
-    },
-    {
-      "employerId": 418,
-      "location": "POINT (789.621374888836 1269.8729153421614)",
-      "buildingId": 472,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -505,129 +317,39 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 4,
-          "net": 1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-06",
           "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-12",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-19",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-25",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-31",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-04-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-26",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-06-28",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-08-30",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-11-01",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-01-03",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 422,
-      "location": "POINT (1273.4344092361837 1252.930095226732)",
-      "buildingId": 317,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 0,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.0
         }
       ]
     },
@@ -640,57 +362,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 426,
-      "location": "POINT (-904.2325319573049 1335.9506479412894)",
-      "buildingId": 256,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 427,
-      "location": "POINT (-885.2966139548657 1555.9764946386085)",
-      "buildingId": 315,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -701,10 +385,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         }
       ]
     },
@@ -717,22 +403,19 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -743,24 +426,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 4,
-          "net": 1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 0,
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 0,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -771,24 +451,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 4,
-          "net": 1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 0,
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 18,
-          "quits": 18,
-          "net": 0,
-          "turnover": 36
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 14,
-          "quits": 14,
-          "net": 0,
-          "turnover": 28
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -799,24 +485,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 6,
-          "net": -1,
-          "turnover": 11
+          "hires": 1,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 14,
-          "quits": 15,
-          "net": -1,
-          "turnover": 29
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 13,
-          "quits": 13,
-          "net": 0,
-          "turnover": 26
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -827,31 +510,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
-        }
-      ]
-    },
-    {
-      "employerId": 436,
-      "location": "POINT (1376.3976505541523 4861.346259046002)",
-      "buildingId": 1024,
-      "history": [
-        {
-          "date": "2022-03-01",
           "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -862,10 +526,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1429
         }
       ]
     },
@@ -875,32 +541,31 @@
       "buildingId": 972,
       "history": [
         {
-          "date": "2022-03-01",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
           "date": "2022-03-02",
-          "hires": 29,
-          "quits": 19,
-          "net": 10,
-          "turnover": 48
+          "hires": 11,
+          "quits": 1,
+          "headcount": 15,
+          "netChange": 10,
+          "turnover": 12,
+          "turnoverRate": 0.8
         },
         {
           "date": "2022-03-03",
-          "hires": 18,
-          "quits": 18,
-          "net": 0,
-          "turnover": 36
+          "hires": 10,
+          "quits": 10,
+          "headcount": 15,
+          "netChange": 0,
+          "turnover": 20,
+          "turnoverRate": 1.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 21,
-          "quits": 21,
-          "net": 0,
-          "turnover": 42
+          "hires": 8,
+          "quits": 8,
+          "headcount": 15,
+          "netChange": 0,
+          "turnover": 16,
+          "turnoverRate": 1.0667
         }
       ]
     },
@@ -911,38 +576,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1429
         },
         {
           "date": "2022-03-03",
-          "hires": 15,
-          "quits": 15,
-          "net": 0,
-          "turnover": 30
+          "hires": 1,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-04",
-          "hires": 8,
-          "quits": 8,
-          "net": 0,
-          "turnover": 16
-        }
-      ]
-    },
-    {
-      "employerId": 440,
-      "location": "POINT (448.79913987469365 4328.78174286464)",
-      "buildingId": 644,
-      "history": [
-        {
-          "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         }
       ]
     },
@@ -955,8 +612,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -967,24 +626,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
-          "hires": 7,
-          "quits": 7,
-          "net": 0,
-          "turnover": 14
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 7,
-          "quits": 7,
-          "net": 0,
-          "turnover": 14
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -994,53 +659,22 @@
       "buildingId": 549,
       "history": [
         {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 1,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 833,
-      "location": "POINT (-1967.8258905516104 4299.950272203162)",
-      "buildingId": 93,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 834,
-      "location": "POINT (-2380.139484985013 2944.7204566724226)",
-      "buildingId": 869,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 0,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.0
         }
       ]
     },
@@ -1051,24 +685,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 4,
-          "net": 1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 0,
+          "headcount": 1,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 16,
-          "quits": 16,
-          "net": 0,
-          "turnover": 32
+          "hires": 1,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 2.0
         },
         {
           "date": "2022-03-04",
-          "hires": 17,
-          "quits": 18,
-          "net": -1,
-          "turnover": 35
+          "hires": 0,
+          "quits": 1,
+          "headcount": 0,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.0
         }
       ]
     },
@@ -1081,15 +721,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -1100,17 +744,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 6,
-          "quits": 4,
-          "net": 2,
-          "turnover": 10
+          "hires": 2,
+          "quits": 0,
+          "headcount": 7,
+          "netChange": 2,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -1123,15 +771,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -1142,24 +794,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 13,
-          "quits": 11,
-          "net": 2,
-          "turnover": 24
+          "hires": 2,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 21,
-          "quits": 22,
-          "net": -1,
-          "turnover": 43
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 17,
-          "quits": 18,
-          "net": -1,
-          "turnover": 35
+          "hires": 0,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -1170,38 +828,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 12,
-          "quits": 11,
-          "net": 1,
-          "turnover": 23
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
-          "hires": 10,
-          "quits": 11,
-          "net": -1,
-          "turnover": 21
+          "hires": 0,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 12,
-          "quits": 11,
-          "net": 1,
-          "turnover": 23
-        },
-        {
-          "date": "2022-03-12",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-06-28",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1211,39 +861,22 @@
       "buildingId": 917,
       "history": [
         {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-04",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        }
-      ]
-    },
-    {
-      "employerId": 842,
-      "location": "POINT (-692.7127197082955 5040.3388326223985)",
-      "buildingId": 773,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -1256,15 +889,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
+          "hires": 0,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1275,24 +912,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 7,
-          "quits": 6,
-          "net": 1,
-          "turnover": 13
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 14,
-          "quits": 14,
-          "net": 0,
-          "turnover": 28
+          "hires": 1,
+          "quits": 0,
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 26,
-          "quits": 26,
-          "net": 0,
-          "turnover": 52
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -1305,8 +939,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1319,15 +955,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -1340,15 +971,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -1358,95 +984,13 @@
       "buildingId": 121,
       "history": [
         {
-          "date": "2022-03-06",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-12",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-19",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-25",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-31",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-07",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
           "date": "2022-04-11",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-26",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-06-28",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-08-30",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-11-01",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-01-03",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-03-07",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -1457,24 +1001,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
-        }
-      ]
-    },
-    {
-      "employerId": 850,
-      "location": "POINT (-2364.178807858101 5198.1957151603365)",
-      "buildingId": 485,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -1485,45 +1017,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 20,
-          "quits": 18,
-          "net": 2,
-          "turnover": 38
+          "hires": 3,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 2,
+          "turnover": 4,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 13,
-          "quits": 14,
-          "net": -1,
-          "turnover": 27
+          "hires": 2,
+          "quits": 3,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 5,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 22,
-          "quits": 22,
-          "net": 0,
-          "turnover": 44
-        }
-      ]
-    },
-    {
-      "employerId": 852,
-      "location": "POINT (-820.4751468446739 4770.301635511239)",
-      "buildingId": 474,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "hires": 2,
+          "quits": 2,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.8
         }
       ]
     },
@@ -1534,38 +1051,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 7,
-          "quits": 6,
-          "net": 1,
-          "turnover": 13
-        }
-      ]
-    },
-    {
-      "employerId": 855,
-      "location": "POINT (-784.6236528229551 4940.6907489765335)",
-      "buildingId": 375,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
-        },
-        {
-          "date": "2022-03-04",
           "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1576,24 +1067,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 11,
-          "quits": 11,
-          "net": 0,
-          "turnover": 22
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 6,
-          "quits": 7,
-          "net": -1,
-          "turnover": 13
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
+          "hires": 0,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -1604,38 +1092,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 31,
-          "quits": 32,
-          "net": -1,
-          "turnover": 63
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-03-04",
-          "hires": 23,
-          "quits": 22,
-          "net": 1,
-          "turnover": 45
-        }
-      ]
-    },
-    {
-      "employerId": 858,
-      "location": "POINT (-1072.87107729431 4660.49395382038)",
-      "buildingId": 937,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -1646,17 +1126,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 0,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -1667,24 +1142,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 7,
-          "quits": 8,
-          "net": -1,
-          "turnover": 15
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -1694,95 +1166,13 @@
       "buildingId": 578,
       "history": [
         {
-          "date": "2022-03-03",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        },
-        {
-          "date": "2022-03-06",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-12",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-19",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-25",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-31",
-          "hires": 0,
-          "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
           "date": "2022-04-04",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-05",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-04-26",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-06-28",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-08-30",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-11-01",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
-        },
-        {
-          "date": "2023-01-03",
-          "hires": 1,
-          "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -1793,24 +1183,21 @@
       "history": [
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        },
-        {
-          "date": "2022-04-11",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         }
       ]
     },
@@ -1821,24 +1208,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 22,
-          "quits": 21,
-          "net": 1,
-          "turnover": 43
+          "hires": 3,
+          "quits": 2,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 5,
+          "turnoverRate": 0.7143
         },
         {
           "date": "2022-03-03",
-          "hires": 14,
-          "quits": 15,
-          "net": -1,
-          "turnover": 29
+          "hires": 1,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 25,
-          "quits": 25,
-          "net": 0,
-          "turnover": 50
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -1849,24 +1242,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 12,
-          "quits": 9,
-          "net": 3,
-          "turnover": 21
+          "hires": 5,
+          "quits": 2,
+          "headcount": 11,
+          "netChange": 3,
+          "turnover": 7,
+          "turnoverRate": 0.6364
         },
         {
           "date": "2022-03-03",
-          "hires": 7,
-          "quits": 7,
-          "net": 0,
-          "turnover": 14
+          "hires": 3,
+          "quits": 3,
+          "headcount": 11,
+          "netChange": 0,
+          "turnover": 6,
+          "turnoverRate": 0.5455
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
+          "hires": 2,
+          "quits": 3,
+          "headcount": 10,
+          "netChange": -1,
+          "turnover": 5,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -1879,22 +1278,28 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1905,38 +1310,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 875,
-      "location": "POINT (-981.7218378806529 4774.377841270679)",
-      "buildingId": 966,
-      "history": [
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -1947,31 +1335,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
-        },
-        {
-          "date": "2022-04-11",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        }
-      ]
-    },
-    {
-      "employerId": 877,
-      "location": "POINT (-1784.078473278472 4571.813634096875)",
-      "buildingId": 670,
-      "history": [
-        {
-          "date": "2022-03-04",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 8,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -1982,24 +1351,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 17,
-          "quits": 18,
-          "net": -1,
-          "turnover": 35
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 11,
-          "quits": 11,
-          "net": 0,
-          "turnover": 22
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
+          "hires": 0,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -2012,15 +1369,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-11",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -2031,24 +1383,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 9,
-          "quits": 8,
-          "net": 1,
-          "turnover": 17
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-03",
-          "hires": 11,
-          "quits": 12,
-          "net": -1,
-          "turnover": 23
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 11,
-          "quits": 10,
-          "net": 1,
-          "turnover": 21
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2059,24 +1417,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 14,
-          "quits": 13,
-          "net": 1,
-          "turnover": 27
+          "hires": 1,
+          "quits": 0,
+          "headcount": 2,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 8,
-          "quits": 8,
-          "net": 0,
-          "turnover": 16
+          "hires": 0,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2087,10 +1442,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -2103,8 +1460,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -2115,31 +1474,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 10,
-          "quits": 7,
-          "net": 3,
-          "turnover": 17
+          "hires": 3,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 3,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 17,
-          "quits": 19,
-          "net": -2,
-          "turnover": 36
+          "hires": 1,
+          "quits": 3,
+          "headcount": 4,
+          "netChange": -2,
+          "turnover": 4,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 11,
-          "quits": 12,
-          "net": -1,
-          "turnover": 23
-        },
-        {
-          "date": "2022-04-11",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 0,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2150,24 +1508,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2178,24 +1524,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
+          "hires": 0,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2206,24 +1558,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 16,
-          "quits": 16,
-          "net": 0,
-          "turnover": 32
+          "hires": 3,
+          "quits": 3,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 6,
+          "turnoverRate": 1.2
         },
         {
           "date": "2022-03-03",
-          "hires": 25,
-          "quits": 26,
-          "net": -1,
-          "turnover": 51
+          "hires": 2,
+          "quits": 3,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 5,
+          "turnoverRate": 1.25
         },
         {
           "date": "2022-03-04",
-          "hires": 34,
-          "quits": 34,
-          "net": 0,
-          "turnover": 68
+          "hires": 2,
+          "quits": 2,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2236,29 +1594,28 @@
           "date": "2022-03-04",
           "hires": 2,
           "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-04-03",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-04-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-04-05",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -2269,17 +1626,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 6,
-          "net": -2,
-          "turnover": 10
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -2290,38 +1651,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1429
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1284,
-      "location": "POINT (-746.105838089235 5429.550547514793)",
-      "buildingId": 260,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -2332,24 +1676,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 15,
-          "quits": 11,
-          "net": 4,
-          "turnover": 26
+          "hires": 5,
+          "quits": 1,
+          "headcount": 11,
+          "netChange": 4,
+          "turnover": 6,
+          "turnoverRate": 0.5455
         },
         {
           "date": "2022-03-03",
-          "hires": 33,
-          "quits": 36,
-          "net": -3,
-          "turnover": 69
+          "hires": 2,
+          "quits": 5,
+          "headcount": 8,
+          "netChange": -3,
+          "turnover": 7,
+          "turnoverRate": 0.875
         },
         {
           "date": "2022-03-04",
-          "hires": 21,
-          "quits": 21,
-          "net": 0,
-          "turnover": 42
+          "hires": 2,
+          "quits": 2,
+          "headcount": 8,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -2360,52 +1710,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 19,
-          "quits": 19,
-          "net": 0,
-          "turnover": 38
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 19,
-          "quits": 18,
-          "net": 1,
-          "turnover": 37
-        }
-      ]
-    },
-    {
-      "employerId": 1288,
-      "location": "POINT (-657.7838584306992 5932.81369824289)",
-      "buildingId": 680,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-04",
-          "hires": 1,
+          "hires": 2,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -2418,22 +1746,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -2444,24 +1760,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 6,
-          "quits": 8,
-          "net": -2,
-          "turnover": 14
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 0,
+          "quits": 2,
+          "headcount": 2,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2472,24 +1776,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 31,
-          "quits": 27,
-          "net": 4,
-          "turnover": 58
+          "hires": 5,
+          "quits": 1,
+          "headcount": 10,
+          "netChange": 4,
+          "turnover": 6,
+          "turnoverRate": 0.6
         }
       ]
     },
@@ -2500,24 +1810,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2530,22 +1846,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 1294,
-      "location": "POINT (-580.0171765817988 5936.726442233701)",
-      "buildingId": 49,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2555,74 +1859,13 @@
       "buildingId": 775,
       "history": [
         {
-          "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        },
-        {
           "date": "2022-03-04",
-          "hires": 7,
-          "quits": 4,
-          "net": 3,
-          "turnover": 11
-        },
-        {
-          "date": "2022-04-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-04-05",
           "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
-        }
-      ]
-    },
-    {
-      "employerId": 1298,
-      "location": "POINT (-3569.215604711074 4903.19250465635)",
-      "buildingId": 441,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        }
-      ]
-    },
-    {
-      "employerId": 1299,
-      "location": "POINT (-769.6207629156387 3991.9429115396124)",
-      "buildingId": 765,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 9,
+          "netChange": 3,
+          "turnover": 5,
+          "turnoverRate": 0.5556
         }
       ]
     },
@@ -2633,24 +1876,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-03",
-          "hires": 11,
-          "quits": 10,
-          "net": 1,
-          "turnover": 21
+          "hires": 2,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 20,
-          "quits": 20,
-          "net": 0,
-          "turnover": 40
+          "hires": 2,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.6667
         }
       ]
     },
@@ -2663,8 +1912,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2677,43 +1928,28 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 2,
-          "net": -2,
-          "turnover": 2
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 1304,
-      "location": "POINT (-3325.5754177846347 5307.883074335268)",
-      "buildingId": 410,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2724,38 +1960,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 8,
-          "quits": 7,
-          "net": 1,
-          "turnover": 15
+          "hires": 1,
+          "quits": 0,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
-          "hires": 6,
-          "quits": 5,
-          "net": 1,
-          "turnover": 11
+          "hires": 3,
+          "quits": 2,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 5,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
-        },
-        {
-          "date": "2022-04-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-04-05",
           "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "quits": 2,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.75
         }
       ]
     },
@@ -2766,24 +1994,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 2,
+          "headcount": 7,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.4286
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         }
       ]
     },
@@ -2794,24 +2028,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 5,
-          "net": -2,
-          "turnover": 8
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2824,29 +2064,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1311,
-      "location": "POINT (-1730.46161795225 5925.860203271363)",
-      "buildingId": 401,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -2859,15 +2080,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -2878,10 +2094,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 6,
-          "quits": 5,
-          "net": 1,
-          "turnover": 11
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2894,22 +2112,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 2,
-          "net": -2,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1316,
-      "location": "POINT (447.7528813037526 4446.320032225456)",
-      "buildingId": 1034,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 7,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         }
       ]
     },
@@ -2922,50 +2128,28 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 7,
-          "quits": 6,
-          "net": 1,
-          "turnover": 13
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 6,
-          "quits": 6,
-          "net": 0,
-          "turnover": 12
-        }
-      ]
-    },
-    {
-      "employerId": 1318,
-      "location": "POINT (-525.2895730956825 4289.093106712981)",
-      "buildingId": 343,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-03",
           "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.6
         },
         {
           "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "hires": 2,
+          "quits": 2,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.8
         }
       ]
     },
@@ -2976,10 +2160,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 7,
-          "quits": 6,
-          "net": 1,
-          "turnover": 13
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -2990,24 +2176,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-03",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3018,24 +2201,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 9,
-          "quits": 9,
-          "net": 0,
-          "turnover": 18
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 10,
-          "quits": 10,
-          "net": 0,
-          "turnover": 20
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         }
       ]
     },
@@ -3045,25 +2234,22 @@
       "buildingId": 486,
       "history": [
         {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
           "date": "2022-03-03",
-          "hires": 4,
-          "quits": 3,
-          "net": 1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3073,25 +2259,22 @@
       "buildingId": 47,
       "history": [
         {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -3102,45 +2285,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
+          "hires": 1,
+          "quits": 2,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 1.5
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        }
-      ]
-    },
-    {
-      "employerId": 1328,
-      "location": "POINT (-3044.6480084760724 5950.665941497604)",
-      "buildingId": 434,
-      "history": [
-        {
-          "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3151,17 +2319,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3172,17 +2335,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 6,
-          "net": -1,
-          "turnover": 11
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -3193,24 +2351,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 51,
-          "quits": 38,
-          "net": 13,
-          "turnover": 89
+          "hires": 14,
+          "quits": 1,
+          "headcount": 15,
+          "netChange": 13,
+          "turnover": 15,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 38,
-          "quits": 39,
-          "net": -1,
-          "turnover": 77
+          "hires": 11,
+          "quits": 12,
+          "headcount": 14,
+          "netChange": -1,
+          "turnover": 23,
+          "turnoverRate": 1.6429
         }
       ]
     },
@@ -3223,29 +2387,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 1335,
-      "location": "POINT (-459.47416762396665 3608.0722709059037)",
-      "buildingId": 489,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3258,8 +2403,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3270,24 +2417,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
+          "hires": 0,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -3300,15 +2453,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
+          "hires": 0,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -3319,52 +2476,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
-        }
-      ]
-    },
-    {
-      "employerId": 1341,
-      "location": "POINT (-1033.1767361471275 5766.179874318859)",
-      "buildingId": 454,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
+          "hires": 0,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        }
-      ]
-    },
-    {
-      "employerId": 1734,
-      "location": "POINT (-3480.17040400516 6856.274228255146)",
-      "buildingId": 261,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -3375,38 +2492,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 6,
-          "quits": 5,
-          "net": 1,
-          "turnover": 11
-        }
-      ]
-    },
-    {
-      "employerId": 1738,
-      "location": "POINT (-3796.1198513891923 6367.922072582076)",
-      "buildingId": 627,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 2,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.4286
         }
       ]
     },
@@ -3417,24 +2526,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 1,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 12,
-          "quits": 13,
-          "net": -1,
-          "turnover": 25
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 15,
-          "quits": 15,
-          "net": 0,
-          "turnover": 30
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3447,8 +2553,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3461,22 +2569,28 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-03",
-          "hires": 7,
-          "quits": 7,
-          "net": 0,
-          "turnover": 14
+          "hires": 2,
+          "quits": 2,
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.5714
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3487,24 +2601,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 4,
-          "net": -2,
-          "turnover": 6
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 5,
-          "quits": 2,
-          "net": 3,
-          "turnover": 7
+          "hires": 3,
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 3,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 5,
-          "quits": 7,
-          "net": -2,
-          "turnover": 12
+          "hires": 1,
+          "quits": 3,
+          "headcount": 4,
+          "netChange": -2,
+          "turnover": 4,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3515,24 +2635,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 3,
-          "net": -2,
-          "turnover": 4
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 7,
-          "quits": 5,
-          "net": 2,
-          "turnover": 12
+          "hires": 2,
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 2,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-04",
-          "hires": 4,
-          "quits": 6,
-          "net": -2,
-          "turnover": 10
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         }
       ]
     },
@@ -3545,22 +2671,28 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-03",
-          "hires": 34,
-          "quits": 35,
-          "net": -1,
-          "turnover": 69
+          "hires": 0,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         },
         {
           "date": "2022-03-04",
-          "hires": 25,
-          "quits": 24,
-          "net": 1,
-          "turnover": 49
+          "hires": 1,
+          "quits": 0,
+          "headcount": 7,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1429
         }
       ]
     },
@@ -3573,8 +2705,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -3585,24 +2719,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
+          "hires": 1,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         }
       ]
     },
@@ -3615,71 +2755,28 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-03",
-          "hires": 29,
-          "quits": 30,
-          "net": -1,
-          "turnover": 59
+          "hires": 0,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         },
         {
           "date": "2022-03-04",
-          "hires": 28,
-          "quits": 27,
-          "net": 1,
-          "turnover": 55
-        }
-      ]
-    },
-    {
-      "employerId": 1749,
-      "location": "POINT (-3221.2402871851464 6153.955275915399)",
-      "buildingId": 932,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
-        },
-        {
-          "date": "2022-03-03",
           "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1751,
-      "location": "POINT (-4515.907604161345 4631.612406745221)",
-      "buildingId": 604,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1753,
-      "location": "POINT (-3472.3085856843627 6781.220179840805)",
-      "buildingId": 807,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "quits": 0,
+          "headcount": 6,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -3690,24 +2787,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3718,24 +2821,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 14,
-          "quits": 15,
-          "net": -1,
-          "turnover": 29
+          "hires": 0,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 13,
-          "quits": 12,
-          "net": 1,
-          "turnover": 25
+          "hires": 1,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -3746,24 +2855,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 6,
-          "net": -2,
-          "turnover": 10
+          "hires": 1,
+          "quits": 3,
+          "headcount": 5,
+          "netChange": -2,
+          "turnover": 4,
+          "turnoverRate": 0.8
         },
         {
           "date": "2022-03-03",
-          "hires": 13,
-          "quits": 13,
-          "net": 0,
-          "turnover": 26
+          "hires": 1,
+          "quits": 1,
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-04",
-          "hires": 14,
-          "quits": 11,
-          "net": 3,
-          "turnover": 25
+          "hires": 4,
+          "quits": 1,
+          "headcount": 8,
+          "netChange": 3,
+          "turnover": 5,
+          "turnoverRate": 0.625
         }
       ]
     },
@@ -3774,24 +2889,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 4,
-          "net": -1,
-          "turnover": 7
+          "hires": 1,
+          "quits": 2,
+          "headcount": 2,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 1.5
         },
         {
           "date": "2022-03-03",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -3802,24 +2923,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 2,
-          "quits": 3,
-          "net": -1,
-          "turnover": 5
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 4,
-          "quits": 4,
-          "net": 0,
-          "turnover": 8
+          "hires": 0,
+          "quits": 1,
+          "headcount": 7,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1429
         }
       ]
     },
@@ -3830,59 +2939,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 13,
-          "quits": 14,
-          "net": -1,
-          "turnover": 27
+          "hires": 2,
+          "quits": 3,
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 5,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 19,
-          "quits": 20,
-          "net": -1,
-          "turnover": 39
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 17,
-          "quits": 17,
-          "net": 0,
-          "turnover": 34
-        }
-      ]
-    },
-    {
-      "employerId": 1761,
-      "location": "POINT (-3804.319468397756 5928.891714229324)",
-      "buildingId": 26,
-      "history": [
-        {
-          "date": "2022-03-02",
           "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "quits": 2,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.75
         },
         {
           "date": "2022-03-04",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1762,
-      "location": "POINT (-3195.7106978818483 6669.514454239059)",
-      "buildingId": 543,
-      "history": [
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3893,24 +2973,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 23,
-          "quits": 21,
-          "net": 2,
-          "turnover": 44
+          "hires": 5,
+          "quits": 3,
+          "headcount": 11,
+          "netChange": 2,
+          "turnover": 8,
+          "turnoverRate": 0.7273
         },
         {
           "date": "2022-03-03",
-          "hires": 17,
-          "quits": 18,
-          "net": -1,
-          "turnover": 35
+          "hires": 1,
+          "quits": 2,
+          "headcount": 10,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.3
         },
         {
           "date": "2022-03-04",
-          "hires": 30,
-          "quits": 30,
-          "net": 0,
-          "turnover": 60
+          "hires": 2,
+          "quits": 2,
+          "headcount": 10,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.4
         }
       ]
     },
@@ -3921,24 +3007,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 10,
-          "quits": 12,
-          "net": -2,
-          "turnover": 22
+          "hires": 1,
+          "quits": 3,
+          "headcount": 4,
+          "netChange": -2,
+          "turnover": 4,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 14,
-          "quits": 14,
-          "net": 0,
-          "turnover": 28
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         },
         {
           "date": "2022-03-04",
-          "hires": 18,
-          "quits": 18,
-          "net": 0,
-          "turnover": 36
+          "hires": 1,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -3949,17 +3041,21 @@
       "history": [
         {
           "date": "2022-03-03",
-          "hires": 16,
-          "quits": 15,
-          "net": 1,
-          "turnover": 31
+          "hires": 2,
+          "quits": 1,
+          "headcount": 8,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.375
         },
         {
           "date": "2022-03-04",
-          "hires": 20,
-          "quits": 21,
-          "net": -1,
-          "turnover": 41
+          "hires": 1,
+          "quits": 2,
+          "headcount": 7,
+          "netChange": -1,
+          "turnover": 3,
+          "turnoverRate": 0.4286
         }
       ]
     },
@@ -3972,22 +3068,28 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.4
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         },
         {
           "date": "2022-03-04",
-          "hires": 2,
-          "quits": 1,
-          "net": 1,
-          "turnover": 3
+          "hires": 1,
+          "quits": 0,
+          "headcount": 5,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -4000,22 +3102,28 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 5,
-          "quits": 5,
-          "net": 0,
-          "turnover": 10
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     },
@@ -4028,8 +3136,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -4042,15 +3152,19 @@
           "date": "2022-03-03",
           "hires": 1,
           "quits": 0,
-          "net": 1,
-          "turnover": 1
+          "headcount": 9,
+          "netChange": 1,
+          "turnover": 1,
+          "turnoverRate": 0.1111
         },
         {
           "date": "2022-03-04",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
+          "headcount": 8,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.125
         }
       ]
     },
@@ -4061,45 +3175,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 5,
-          "net": -2,
-          "turnover": 8
+          "hires": 0,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         },
         {
           "date": "2022-03-03",
-          "hires": 25,
-          "quits": 13,
-          "net": 12,
-          "turnover": 38
+          "hires": 13,
+          "quits": 1,
+          "headcount": 15,
+          "netChange": 12,
+          "turnover": 14,
+          "turnoverRate": 0.9333
         },
         {
           "date": "2022-03-04",
-          "hires": 23,
-          "quits": 25,
-          "net": -2,
-          "turnover": 48
-        }
-      ]
-    },
-    {
-      "employerId": 1775,
-      "location": "POINT (-4150.694543856866 5079.325752156183)",
-      "buildingId": 28,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "hires": 10,
+          "quits": 12,
+          "headcount": 13,
+          "netChange": -2,
+          "turnover": 22,
+          "turnoverRate": 1.6923
         }
       ]
     },
@@ -4110,24 +3209,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 4,
-          "quits": 5,
-          "net": -1,
-          "turnover": 9
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 6,
-          "quits": 6,
-          "net": 0,
-          "turnover": 12
+          "hires": 0,
+          "quits": 1,
+          "headcount": 1,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
-          "hires": 8,
-          "quits": 6,
-          "net": 2,
-          "turnover": 14
+          "hires": 2,
+          "quits": 0,
+          "headcount": 3,
+          "netChange": 2,
+          "turnover": 2,
+          "turnoverRate": 0.6667
         }
       ]
     },
@@ -4140,15 +3236,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 4,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.25
         }
       ]
     },
@@ -4159,10 +3250,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -4173,24 +3266,12 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 1,
-          "quits": 3,
-          "net": -2,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 2,
+          "hires": 0,
           "quits": 2,
-          "net": 0,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 1,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 2.0
         }
       ]
     },
@@ -4203,29 +3284,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 1786,
-      "location": "POINT (-3300.166421375523 6148.413135904235)",
-      "buildingId": 738,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 3,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -4238,43 +3300,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        }
-      ]
-    },
-    {
-      "employerId": 1789,
-      "location": "POINT (-3813.2913987997836 5750.038441232494)",
-      "buildingId": 877,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-03",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 1,
-          "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 5,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.2
         }
       ]
     },
@@ -4287,15 +3316,19 @@
           "date": "2022-03-02",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 7,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 0.2857
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 2,
-          "net": -1,
-          "turnover": 3
+          "hires": 0,
+          "quits": 1,
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -4306,24 +3339,30 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         },
         {
           "date": "2022-03-03",
-          "hires": 10,
-          "quits": 10,
-          "net": 0,
-          "turnover": 20
+          "hires": 2,
+          "quits": 2,
+          "headcount": 3,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 1.3333
         },
         {
           "date": "2022-03-04",
-          "hires": 49,
-          "quits": 48,
-          "net": 1,
-          "turnover": 97
+          "hires": 3,
+          "quits": 2,
+          "headcount": 4,
+          "netChange": 1,
+          "turnover": 5,
+          "turnoverRate": 1.25
         }
       ]
     },
@@ -4334,17 +3373,21 @@
       "history": [
         {
           "date": "2022-03-03",
-          "hires": 3,
-          "quits": 2,
-          "net": 1,
-          "turnover": 5
+          "hires": 2,
+          "quits": 1,
+          "headcount": 8,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.375
         },
         {
           "date": "2022-03-04",
-          "hires": 8,
-          "quits": 8,
-          "net": 0,
-          "turnover": 16
+          "hires": 2,
+          "quits": 2,
+          "headcount": 8,
+          "netChange": 0,
+          "turnover": 4,
+          "turnoverRate": 0.5
         }
       ]
     },
@@ -4355,24 +3398,21 @@
       "history": [
         {
           "date": "2022-03-02",
-          "hires": 8,
-          "quits": 7,
-          "net": 1,
-          "turnover": 15
+          "hires": 2,
+          "quits": 1,
+          "headcount": 8,
+          "netChange": 1,
+          "turnover": 3,
+          "turnoverRate": 0.375
         },
         {
           "date": "2022-03-03",
-          "hires": 1,
-          "quits": 3,
-          "net": -2,
-          "turnover": 4
-        },
-        {
-          "date": "2022-03-04",
-          "hires": 3,
-          "quits": 3,
-          "net": 0,
-          "turnover": 6
+          "hires": 0,
+          "quits": 2,
+          "headcount": 6,
+          "netChange": -2,
+          "turnover": 2,
+          "turnoverRate": 0.3333
         }
       ]
     },
@@ -4385,22 +3425,10 @@
           "date": "2022-03-02",
           "hires": 0,
           "quits": 1,
-          "net": -1,
-          "turnover": 1
-        }
-      ]
-    },
-    {
-      "employerId": 1796,
-      "location": "POINT (-3725.261225376805 6345.551342169127)",
-      "buildingId": 1011,
-      "history": [
-        {
-          "date": "2022-03-02",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "headcount": 6,
+          "netChange": -1,
+          "turnover": 1,
+          "turnoverRate": 0.1667
         }
       ]
     },
@@ -4411,17 +3439,21 @@
       "history": [
         {
           "date": "2022-03-03",
-          "hires": 2,
-          "quits": 2,
-          "net": 0,
-          "turnover": 4
+          "hires": 1,
+          "quits": 1,
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         },
         {
           "date": "2022-03-04",
           "hires": 1,
           "quits": 1,
-          "net": 0,
-          "turnover": 2
+          "headcount": 2,
+          "netChange": 0,
+          "turnover": 2,
+          "turnoverRate": 1.0
         }
       ]
     }

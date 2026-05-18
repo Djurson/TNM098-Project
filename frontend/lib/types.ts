@@ -107,3 +107,5 @@ export type BusinessTrafficDataset = {
   summary: BusinessTrafficSummary[];
   venues: BusinessTrafficVenue[];
 };
+
+export type TimeRangeDropdown = "day" | "week" | "month";

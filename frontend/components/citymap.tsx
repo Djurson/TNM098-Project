@@ -1,15 +1,16 @@
 "use client";
 
-import * as d3 from "d3";
-import { Check, Layers } from "lucide-react";
+import { Layers } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { createSvgRoot, applyChartInteractions } from "@/lib/chart-utils";
 import { ChartTooltip, type TooltipRef } from "@/components/chart-tooltip";
+import { LegendCheckboxItem } from "@/components/chart-legend-item";
 import { Button } from "@/components/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import type { BuildingFeature, BuildingType, EmployerPoint, MapLayers, PubPoint, RestaurantPoint, SchoolPoint } from "@/lib/types";
+import type { BuildingFeature, EmployerPoint, MapLayers, PubPoint, RestaurantPoint, SchoolPoint } from "@/lib/types";
 import { COLOR_BY_TYPE, LAYER_STYLES, LayerKey } from "@/lib/utils";
+import { scaleLinear, select, zoom } from "d3";
 
 const WIDTH = 750;
 const HEIGHT = 750;
@@ -71,12 +72,10 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
 
   const scales = useMemo(() => {
     if (!bounds) return null;
-    const xScale = d3
-      .scaleLinear()
+    const xScale = scaleLinear()
       .domain([bounds.minX, bounds.maxX])
       .range([PADDING, WIDTH - PADDING]);
-    const yScale = d3
-      .scaleLinear()
+    const yScale = scaleLinear()
       .domain([bounds.minY, bounds.maxY])
       .range([HEIGHT - PADDING, PADDING]);
 
@@ -109,8 +108,7 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
     root.selectAll("*").remove();
 
     const g = root.append("g");
-    const zoom = d3
-      .zoom<SVGSVGElement, unknown>()
+    const graphZoom = zoom<SVGSVGElement, unknown>()
       .scaleExtent([1, 10])
       .on("zoom", (e) => {
         g.attr("transform", e.transform);
@@ -118,7 +116,7 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
         const labelOpacity = Math.max(0, Math.min(1, (e.transform.k - 3) / 2));
         g.select('[data-layer="building-labels"]').attr("opacity", labelOpacity);
       });
-    root.call(zoom);
+    root.call(graphZoom);
 
     const buildingPaths = g
       .append("g")
@@ -145,8 +143,8 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
           { label: "maxOccupancy", value: d.maxOccupancy ?? "N/A" },
         ],
       }),
-      onHoverIn: (element) => d3.select(element).attr("fill-opacity", 0.95).attr("stroke-opacity", 1).attr("stroke-width", 2),
-      onHoverOut: (element) => d3.select(element).attr("fill-opacity", 0.65).attr("stroke-opacity", 0.5).attr("stroke-width", 0.8),
+      onHoverIn: (element) => select(element).attr("fill-opacity", 0.95).attr("stroke-opacity", 1).attr("stroke-width", 2),
+      onHoverOut: (element) => select(element).attr("fill-opacity", 0.65).attr("stroke-opacity", 0.5).attr("stroke-width", 0.8),
     });
 
     // Building ID labels — start hidden, fade in as the user zooms (see zoom handler above)
@@ -193,12 +191,11 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
         getCrosshairPos: () => ({ x: 0, y: 0 }),
         getTooltipData: tooltipBuilder,
         onHoverIn: (element) =>
-          d3
-            .select(element)
+          select(element)
             .attr("r", radius + 2.5)
             .attr("stroke-width", 2)
             .attr("fill-opacity", 1),
-        onHoverOut: (element) => d3.select(element).attr("r", radius).attr("stroke-width", 1.5).attr("fill-opacity", 0.9),
+        onHoverOut: (element) => select(element).attr("r", radius).attr("stroke-width", 1.5).attr("fill-opacity", 0.9),
       });
     };
 
@@ -242,12 +239,12 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
   }, [buildings, employers, layerVisibility, pathForBuilding, pubs, restaurants, scales, schools]);
 
   return (
-    <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl border border-slate-200 bg-slate-50 shadow-sm">
-      <svg ref={svgRef} className="block h-full w-full" />
+    <div className="relative flex-1 min-h-0 overflow-hidden border rounded-xl border-slate-200 bg-slate-50 shadow-sm">
+      <svg ref={svgRef} className="block w-full h-full" />
       <ChartTooltip ref={tooltipRef} />
 
       {/* Google Maps-style layer control — bottom-left of the map */}
-      <div className="absolute bottom-3 right-3 z-10">
+      <div className="absolute z-10 bottom-3 right-3">
         <Popover>
           <PopoverTrigger asChild>
             <Button variant="outline" size="sm" className="gap-1.5 border-slate-200 bg-white/90 shadow-md backdrop-blur-sm hover:bg-white">
@@ -255,22 +252,13 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
               Layers
             </Button>
           </PopoverTrigger>
-          <PopoverContent side="top" align="end" sideOffset={8} className="w-52 p-2">
-            <p className="px-1 pb-2 text-base font-semibold uppercase tracking-widest text-muted-foreground">Point Layers</p>
+          <PopoverContent side="top" align="end" sideOffset={8} className="p-2 w-52">
+            <p className="px-1 pb-2 text-base font-semibold tracking-widest uppercase text-muted-foreground">Point Layers</p>
             <div className="flex flex-col">
               {Object.entries(LAYER_STYLES).map(([key, config]) => {
                 const layerKey = key as LayerKey;
-                const isActive = layerVisibility[layerKey];
                 return (
-                  <label key={key} className="flex cursor-pointer select-none items-center gap-2.5 rounded-md px-2 py-1.5 transition-colors hover:bg-muted">
-                    <input type="checkbox" className="sr-only" checked={isActive} onChange={() => setLayerVisibility((prev) => ({ ...prev, [layerKey]: !prev[layerKey] }))} />
-                    <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors" style={isActive ? { backgroundColor: config.color, borderColor: config.color } : { borderColor: "#d1d5db" }}>
-                      {isActive && <Check className="h-2.5 w-2.5 text-white" strokeWidth={3} />}
-                    </span>
-                    <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: config.color, opacity: isActive ? 1 : 0.35 }} />
-                    <span className={`flex-1 text-sm ${isActive ? "text-foreground" : "text-muted-foreground"}`}>{config.label}</span>
-                    <span className="tabular-nums text-xs text-muted-foreground">{layerCounts[layerKey]}</span>
-                  </label>
+                  <LegendCheckboxItem key={key} checked={layerVisibility[layerKey]} onChange={() => setLayerVisibility((prev) => ({ ...prev, [layerKey]: !prev[layerKey] }))} color={config.color} label={config.label} count={layerCounts[layerKey]} />
                 );
               })}
             </div>
@@ -278,7 +266,9 @@ export function CityMap({ mapLayers }: { mapLayers: MapLayers }) {
         </Popover>
       </div>
 
-      <div className="pointer-events-none absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-slate-100 bg-white/80 px-3 py-1 text-[11px] text-slate-400 shadow-sm backdrop-blur-sm">Scroll to zoom · drag to pan · click buildings & markers for details</div>
+      <div className="pointer-events-none absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-slate-100 bg-white/80 px-3 py-1 text-[11px] text-slate-400 shadow-sm backdrop-blur-sm">
+        Scroll to zoom · drag to pan · click buildings & markers for details
+      </div>
     </div>
   );
 }

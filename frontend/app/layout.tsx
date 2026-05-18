@@ -23,7 +23,7 @@ export default function RootLayout({
         <ThemeProvider>
           <div className="flex h-screen overflow-hidden">
             <AppSidebar />
-            <main className="min-w-0 flex-1 overflow-hidden">{children}</main>
+            <main className="flex flex-col flex-1 min-w-0 px-6 pt-5 pb-4 overflow-y-auto">{children}</main>
           </div>
         </ThemeProvider>
       </body>

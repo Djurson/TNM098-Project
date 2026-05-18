@@ -26,11 +26,11 @@ export function ChartTooltip({ ref }: { ref?: Ref<TooltipRef> }) {
   }));
 
   return (
-    <div ref={divRef} className="fixed z-50 p-3 text-sm transition-opacity duration-150 border rounded-lg shadow-lg opacity-0 pointer-events-none bg-white/95 backdrop-blur-sm border-slate-200 text-slate-800" style={{ left: 0, top: 0, willChange: "transform" }}>
+    <div ref={divRef} className="fixed z-50 p-3 text-sm border rounded-lg shadow-lg opacity-0 pointer-events-none transition-opacity duration-150 bg-white/95 backdrop-blur-sm border-slate-200 text-slate-800" style={{ left: 0, top: 0, willChange: "transform" }}>
       {data && (
         <>
           {data.title && <div className="pb-1 mb-1 text-xs font-bold border-b border-slate-200">{data.title}</div>}
-          <div className="flex flex-col gap-1 mt-1">
+          <div className="flex flex-col mt-1 gap-1">
             {data.details.map((detail, idx) => (
               <DataDetails key={idx} detail={detail} />
             ))}
