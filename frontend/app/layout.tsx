@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}>
       <body>
-        <ThemeProvider>
+        <ThemeProvider forcedTheme="light">
           <div className="flex h-screen overflow-hidden">
             <AppSidebar />
             <main className="flex flex-col flex-1 min-w-0 px-6 pt-5 pb-4 overflow-y-auto">{children}</main>

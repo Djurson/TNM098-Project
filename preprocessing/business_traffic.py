@@ -1,172 +1,106 @@
-from __future__ import annotations
-
-import json
-import re
-from typing import Any
-
 import pandas as pd
+import numpy as np
+from pathlib import Path
 
 import shared
 
-OUTPUT_PATH = shared.OUTPUT_DIR / "business_traffic.json"
+BUSINESSES_OUTPUT_PATH = shared.OUTPUT_DIR / "business" / "businesses.json"
+DAILY_OUTPUT_PATH      = shared.OUTPUT_DIR / "business" / "business_daily.json"
+SUMMARY_OUTPUT_PATH    = shared.OUTPUT_DIR / "business" / "business_summary.json"
 
 
-def _parse_point(wkt: Any) -> dict[str, float] | None:
-    if not isinstance(wkt, str):
-        return None
-    text = wkt.strip()
-    match = re.match(r"^POINT\s*\(\s*([\-\d.]+)\s+([\-\d.]+)\s*\)\s*$", text, re.IGNORECASE)
-    if not match:
-        return None
-    try:
-        return {"x": float(match.group(1)), "y": float(match.group(2))}
-    except ValueError:
-        return None
+def load_venues() -> pd.DataFrame:
+    pubs = pd.read_csv(shared.DATA_BASE_DIR / "Attributes" / "Pubs.csv")
+    pubs = pubs.rename(columns={"pubId": "venueId", "hourlyCost": "cost"})
+    pubs["type"] = "pub"
+
+    restaurants = pd.read_csv(shared.DATA_BASE_DIR / "Attributes" / "Restaurants.csv")
+    restaurants = restaurants.rename(columns={"maxOccupancy ": "maxOccupancy", "restaurantId": "venueId", "foodCost": "cost"})
+    restaurants["type"] = "restaurant"
+
+    venues = pd.concat([pubs, restaurants], ignore_index=True)
+    venues[["x", "y"]] = venues["location"].str.extract(r"POINT\s*\(\s*([\-\d.]+)\s+([\-\d.]+)\s*\)").astype(float)
+    return venues.drop(columns=["location"])
 
 
-def _normalize_columns(frame: pd.DataFrame) -> pd.DataFrame:
-    frame = frame.copy()
-    frame.columns = frame.columns.map(lambda name: str(name).strip())
-    return frame
+def load_travel_journal() -> pd.DataFrame:
+    return pd.read_csv(shared.DATA_BASE_DIR / "Journals" / "TravelJournal.csv")
 
 
-def _load_businesses() -> list[dict[str, object]]:
-    pubs = _normalize_columns(pd.read_csv(shared.ATTRIBUTES_DIR / "Pubs.csv"))
-    pubs = pubs.rename(columns={"pubId": "venueId"})
-    pubs["venueType"] = "Pub"
-
-    restaurants = _normalize_columns(pd.read_csv(shared.ATTRIBUTES_DIR / "Restaurants.csv"))
-    restaurants = restaurants.rename(columns={"restaurantId": "venueId"})
-    restaurants["venueType"] = "Restaurant"
-
-    combined = pd.concat([pubs, restaurants], ignore_index=True, sort=False)
-
-    records: list[dict[str, object]] = []
-    for _, row in combined.iterrows():
-        location = _parse_point(row.get("location"))
-        venue_id = int(row.get("venueId"))
-        venue_type = str(row.get("venueType"))
-        max_occupancy = row.get("maxOccupancy")
-        max_occupancy_value = None
-        if not pd.isna(max_occupancy):
-            try:
-                max_occupancy_value = int(max_occupancy)
-            except ValueError:
-                max_occupancy_value = None
-
-        building_id = row.get("buildingId")
-        building_id_value = None
-        if not pd.isna(building_id):
-            try:
-                building_id_value = int(building_id)
-            except ValueError:
-                building_id_value = None
-
-        records.append(
-            {
-                "venueId": venue_id,
-                "venueType": venue_type,
-                "location": location,
-                "buildingId": building_id_value,
-                "maxOccupancy": max_occupancy_value,
-            }
-        )
-
-    return records
+def build_daily_revenue(visits: pd.DataFrame) -> pd.DataFrame:
+    return visits.groupby(["date", "venueId"])["amount_spent"].sum().reset_index()
 
 
-def _load_daily_checkins() -> pd.DataFrame:
-    checkins_path = shared.JOURNALS_DIR / "CheckinJournal.csv"
-    checkins = pd.read_csv(checkins_path, usecols=["participantId", "timestamp", "venueId", "venueType"])
-    checkins = _normalize_columns(checkins)
-    checkins["timestamp"] = pd.to_datetime(checkins["timestamp"], utc=True, errors="coerce")
-    checkins = checkins.dropna(subset=["timestamp", "participantId", "venueId", "venueType"])
+def build_daily_occupancy(visits: pd.DataFrame) -> pd.DataFrame:
+    # Simulate concurrent occupancy by treating check-ins as +1 and check-outs as -1 events,
+    # then taking the peak cumulative sum. Both events use the check-in date so overnight
+    # stays don't split across two days.
+    arrivals = visits[["venueId", "date", "checkInTime"]].copy().rename(columns={"checkInTime": "timestamp"})
+    arrivals["occupancy_change"] = 1
 
-    checkins["venueType"] = checkins["venueType"].astype(str).str.strip().str.title()
-    checkins = checkins[checkins["venueType"].isin({"Pub", "Restaurant"})]
+    departures = visits[["venueId", "date", "checkOutTime"]].copy().rename(columns={"checkOutTime": "timestamp"})
+    departures["occupancy_change"] = -1
 
-    checkins["date"] = checkins["timestamp"].dt.floor("D").dt.strftime("%Y-%m-%d")
-    checkins["participantId"] = pd.to_numeric(checkins["participantId"], errors="coerce")
-    checkins["venueId"] = pd.to_numeric(checkins["venueId"], errors="coerce")
-    checkins = checkins.dropna(subset=["participantId", "venueId"])
+    events = pd.concat([arrivals, departures]).sort_values(["venueId", "date", "timestamp"])
+    events["current_occupancy"] = events.groupby(["venueId", "date"])["occupancy_change"].cumsum()
 
-    daily = (
-        checkins.groupby(["venueType", "venueId", "date"])["participantId"]
-        .nunique()
-        .reset_index(name="checkins")
+    return events.groupby(["venueId", "date"])["current_occupancy"].max().reset_index(name="max_occupants")
+
+
+def build_daily_stats(venues: pd.DataFrame, travel_journal: pd.DataFrame) -> pd.DataFrame:
+    visits = pd.merge(venues, travel_journal, left_on="venueId", right_on="travelEndLocationId")
+    visits["amount_spent"] = visits["startingBalance"] - visits["endingBalance"]
+    visits["date"] = pd.to_datetime(visits["checkInTime"]).dt.normalize()
+
+    daily_revenue   = build_daily_revenue(visits)
+    daily_occupancy = build_daily_occupancy(visits)
+
+    stats = pd.merge(daily_revenue, daily_occupancy, on=["venueId", "date"])
+    stats = pd.merge(stats, venues[["venueId", "maxOccupancy"]], on="venueId")
+    stats["occupancy_rate"] = stats["max_occupants"] / stats["maxOccupancy"]
+    return stats.drop(columns=["maxOccupancy"]).rename(columns={"amount_spent": "daily_amount_spent"})
+
+
+def compute_trend(group: pd.DataFrame) -> np.float64:
+    x = np.arange(len(group))
+    slope, _ = np.polyfit(x, group["daily_amount_spent"], 1)
+    return slope
+
+
+def build_summary(daily_stats: pd.DataFrame) -> pd.DataFrame:
+    monthly_revenue = (
+        daily_stats
+        .assign(year_month=daily_stats["date"].dt.to_period("M"))
+        .groupby(["venueId", "year_month"])["daily_amount_spent"]
+        .sum()
+        .reset_index()
     )
 
-    daily["venueId"] = daily["venueId"].astype("int64")
-    daily["checkins"] = daily["checkins"].astype("int64")
-    return daily
+    trends  = monthly_revenue.groupby("venueId").apply(compute_trend).reset_index(name="trend_slope")
+    summary = daily_stats.groupby("venueId").agg(
+        total_revenue = ("daily_amount_spent", "sum"),
+        avg_occupancy = ("occupancy_rate",     "mean"),
+    ).reset_index()
+
+    return pd.merge(summary, trends, on="venueId")
 
 
-def _build_summary(daily: pd.DataFrame) -> list[dict[str, int | str]]:
-    summary = daily.groupby(["date", "venueType"])["checkins"].sum().unstack(fill_value=0)
-    summary["total"] = summary.sum(axis=1)
-
-    summary_records: list[dict[str, int | str]] = []
-    for date, row in summary.sort_index().iterrows():
-        summary_records.append(
-            {
-                "date": str(date),
-                "total": int(row.get("total", 0)),
-                "pubs": int(row.get("Pub", 0)),
-                "restaurants": int(row.get("Restaurant", 0)),
-            }
-        )
-    return summary_records
-
-
-def _build_venue_history(daily: pd.DataFrame) -> dict[tuple[str, int], list[dict[str, int | str]]]:
-    history: dict[tuple[str, int], list[dict[str, int | str]]] = {}
-    for _, row in daily.sort_values("date").iterrows():
-        key = (str(row["venueType"]), int(row["venueId"]))
-        history.setdefault(key, []).append(
-            {
-                "date": str(row["date"]),
-                "checkins": int(row["checkins"]),
-            }
-        )
-    return history
+def export_json(data: pd.DataFrame, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data.to_json(path, orient="records", date_format="iso")
 
 
 def main() -> None:
-    venues = _load_businesses()
-    daily = _load_daily_checkins()
+    venues         = load_venues()
+    travel_journal = load_travel_journal()
 
-    summary = _build_summary(daily)
-    history_lookup = _build_venue_history(daily)
+    export_json(venues[["venueId", "x", "y", "type", "maxOccupancy", "cost"]], BUSINESSES_OUTPUT_PATH)
 
-    venue_records: list[dict[str, object]] = []
-    for venue in venues:
-        venue_type = str(venue["venueType"])
-        venue_id = int(venue["venueId"])
-        history = history_lookup.get((venue_type, venue_id), [])
-        total_checkins = sum(item["checkins"] for item in history)
+    daily_stats = build_daily_stats(venues, travel_journal)
+    export_json(daily_stats, DAILY_OUTPUT_PATH)
 
-        venue_records.append(
-            {
-                "venueId": venue_id,
-                "venueType": venue_type,
-                "location": venue.get("location"),
-                "buildingId": venue.get("buildingId"),
-                "maxOccupancy": venue.get("maxOccupancy"),
-                "totalCheckins": int(total_checkins),
-                "history": history,
-            }
-        )
-
-    payload = {
-        "summary": summary,
-        "venues": venue_records,
-    }
-
-    shared.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as fp:
-        json.dump(payload, fp, ensure_ascii=True)
-
-    print(f"Saved business traffic data to: {OUTPUT_PATH}")
+    summary = build_summary(daily_stats)
+    export_json(summary, SUMMARY_OUTPUT_PATH)
 
 
 if __name__ == "__main__":

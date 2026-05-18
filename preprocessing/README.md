@@ -14,7 +14,7 @@
 Using the Journals makes this process computationally efficient compared to parsing the 18GB activity logs.
 
 - [x] **Link Check-ins to Venues:** Use `CheckinJournal.csv` to match `venueId` and `venueType` ("Pub", "Restaurant") to aggregate daily/weekly foot traffic.
-- [ ] **Calculate True Revenue:** Process the `FinancialJournal.csv`. Filter for expenses categorized as `"Food"` and `"Recreation"`. Match the `timestamp` and `participantId` of these transactions with the `CheckinJournal.csv` to attribute exact spending to specific venues.
+- [x] **Calculate True Revenue:** Process the `FinancialJournal.csv`. Filter for expenses categorized as `"Food"` and `"Recreation"`. Match the `timestamp` and `participantId` of these transactions with the `CheckinJournal.csv` to attribute exact spending to specific venues.
 - [ ] **Establish Demographic Profiles:** Link the `participantId` from the check-ins to `Participants.csv` to understand the customer base (e.g., `educationLevel`, `haveKids`, `joviality`).
 - [ ] **Spatial Context:** Merge the geographic `location` from `Pubs.csv` and `Restaurants.csv` to map business hotspots.
 

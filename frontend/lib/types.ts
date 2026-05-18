@@ -109,3 +109,20 @@ export type BusinessTrafficDataset = {
 };
 
 export type TimeRangeDropdown = "day" | "week" | "month";
+
+export type EnrichedVenue = {
+  venueId: number;
+  x: number;
+  y: number;
+  type: "pub" | "restaurant";
+  maxOccupancy: number;
+  cost: number;
+  total_revenue: number;
+  avg_occupancy: number;
+  trend_slope: number;
+  relativeTrend: number;
+  norm_occupancy: number;
+  norm_trend: number;
+  norm_revenue_per_seat: number;
+  prosperity_index: number;
+};
