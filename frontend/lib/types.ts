@@ -119,7 +119,8 @@ export type EnrichedVenue = {
   cost: number;
   total_revenue: number;
   avg_occupancy: number;
-  trend_slope: number;
+  amount_trend_slope: number;
+  checkin_trend_slope: number;
   relativeTrend: number;
   norm_occupancy: number;
   norm_trend: number;

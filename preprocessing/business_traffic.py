@@ -54,35 +54,40 @@ def build_daily_stats(venues: pd.DataFrame, travel_journal: pd.DataFrame) -> pd.
 
     daily_revenue   = build_daily_revenue(visits)
     daily_occupancy = build_daily_occupancy(visits)
+    daily_checkins  = visits.groupby(["date", "venueId"]).size().reset_index(name="daily_checkins")
 
     stats = pd.merge(daily_revenue, daily_occupancy, on=["venueId", "date"])
+    stats = pd.merge(stats, daily_checkins, on=["venueId", "date"])
     stats = pd.merge(stats, venues[["venueId", "maxOccupancy"]], on="venueId")
     stats["occupancy_rate"] = stats["max_occupants"] / stats["maxOccupancy"]
     return stats.drop(columns=["maxOccupancy"]).rename(columns={"amount_spent": "daily_amount_spent"})
 
 
-def compute_trend(group: pd.DataFrame) -> np.float64:
-    x = np.arange(len(group))
-    slope, _ = np.polyfit(x, group["daily_amount_spent"], 1)
+def _linear_slope(values: pd.Series) -> np.float64:
+    x = np.arange(len(values))
+    slope, _ = np.polyfit(x, values, 1)
     return slope
 
 
 def build_summary(daily_stats: pd.DataFrame) -> pd.DataFrame:
-    monthly_revenue = (
+    monthly = (
         daily_stats
         .assign(year_month=daily_stats["date"].dt.to_period("M"))
-        .groupby(["venueId", "year_month"])["daily_amount_spent"]
+        .groupby(["venueId", "year_month"])[["daily_amount_spent", "daily_checkins"]]
         .sum()
         .reset_index()
     )
 
-    trends  = monthly_revenue.groupby("venueId").apply(compute_trend).reset_index(name="trend_slope")
+    amount_trends  = monthly.groupby("venueId")["daily_amount_spent"].apply(_linear_slope).reset_index(name="amount_trend_slope")
+    checkin_trends = monthly.groupby("venueId")["daily_checkins"].apply(_linear_slope).reset_index(name="checkin_trend_slope")
+
     summary = daily_stats.groupby("venueId").agg(
         total_revenue = ("daily_amount_spent", "sum"),
         avg_occupancy = ("occupancy_rate",     "mean"),
     ).reset_index()
 
-    return pd.merge(summary, trends, on="venueId")
+    summary = pd.merge(summary, amount_trends,  on="venueId")
+    return  pd.merge(summary, checkin_trends, on="venueId")
 
 
 def export_json(data: pd.DataFrame, path: Path) -> None:

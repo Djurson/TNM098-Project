@@ -122,7 +122,7 @@ export function BusinessMap({ buildings, venues, selectedVenueId, onSelect }: Pr
               { label: "Prosperity Index", value: d.prosperity_index.toFixed(3) },
               { label: "Total Revenue", value: format("$,.0f")(d.total_revenue) },
               { label: "Avg Occupancy", value: format(".1%")(d.avg_occupancy) },
-              { label: "Trend", value: d.trend_slope > 0 ? "↑ Growing" : "↓ Declining" },
+              { label: "Trend", value: d.amount_trend_slope > 0 ? "↑ Growing" : "↓ Declining" },
             ],
           },
           e.clientX,

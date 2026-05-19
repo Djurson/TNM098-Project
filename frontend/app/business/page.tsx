@@ -23,16 +23,16 @@ export default function BusinessPage() {
   // Aggregate daily venue revenue into per-day pub/restaurant totals for the traffic chart
   const trafficData = useMemo((): TrafficData[] => {
     const typeMap = new Map(BusinessesData.map((b) => [b.venueId, b.type]));
-    const byDate = new Map<string, { pubs: number; restaurants: number }>();
+    const byDate = new Map<string, { pubs: number; restaurants: number; pubCheckins: number; restaurantCheckins: number }>();
 
     for (const row of BusinessDailyData) {
       const date = row.date.slice(0, 10);
       const type = typeMap.get(row.venueId);
       if (!type) continue;
-      if (!byDate.has(date)) byDate.set(date, { pubs: 0, restaurants: 0 });
+      if (!byDate.has(date)) byDate.set(date, { pubs: 0, restaurants: 0, pubCheckins: 0, restaurantCheckins: 0 });
       const entry = byDate.get(date)!;
-      if (type === "pub") entry.pubs += row.daily_amount_spent;
-      else entry.restaurants += row.daily_amount_spent;
+      if (type === "pub") { entry.pubs += row.daily_amount_spent; entry.pubCheckins += row.daily_checkins; }
+      else { entry.restaurants += row.daily_amount_spent; entry.restaurantCheckins += row.daily_checkins; }
     }
 
     return Array.from(byDate.entries())
@@ -48,7 +48,7 @@ export default function BusinessPage() {
       const s = summaryMap.get(b.venueId);
       if (!s) return [];
       const avgMonthlyRevenue = s.total_revenue / 15;
-      const relativeTrend = avgMonthlyRevenue > 0 ? s.trend_slope / avgMonthlyRevenue : 0;
+      const relativeTrend = avgMonthlyRevenue > 0 ? s.amount_trend_slope / avgMonthlyRevenue : 0;
       return [{ ...b, ...s, relativeTrend, type: b.type as "pub" | "restaurant" }];
     });
 
@@ -76,6 +76,7 @@ export default function BusinessPage() {
     return BusinessDailyData.filter((r) => r.venueId === selectedVenueId).map((r) => ({
       date: r.date.slice(0, 10),
       amount: r.daily_amount_spent,
+      checkins: r.daily_checkins,
     }));
   }, [selectedVenueId]);
 
