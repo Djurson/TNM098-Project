@@ -7,6 +7,7 @@ import { ChartTooltip, type TooltipRef } from "@/components/chart-tooltip";
 import { COLOR_BY_TYPE, LAYER_STYLES } from "@/lib/utils";
 import type { BuildingFeature, EnrichedVenue } from "@/lib/types";
 import { format, scaleLinear, zoom } from "d3";
+import { ChartCard } from "@/components/ui/chart-card";
 
 const WIDTH = 500;
 const HEIGHT = 500;
@@ -150,13 +151,11 @@ export function BusinessMap({ buildings, venues, selectedVenueId, onSelect }: Pr
   }, [selectedVenueId]);
 
   return (
-    <div className="flex flex-col gap-3 p-4 border shadow-sm rounded-xl border-slate-200 bg-slate-50">
-      <div className="flex items-start justify-between">
-        <div>
-          <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Spatial Overview</p>
-          <h2 className="text-xl font-semibold text-slate-900">Venue Locations</h2>
-          <p className="mt-0.5 text-xs text-slate-400">Click to select · scroll to zoom · drag to pan</p>
-        </div>
+    <ChartCard
+      eyebrow="Spatial Overview"
+      title="Venue Locations"
+      hint="Click to select · scroll to zoom · drag to pan"
+      actions={
         <div className="flex items-center gap-4 mt-1 text-xs text-slate-500">
           <span className="flex items-center gap-1.5">
             <span className="w-3 h-3 rounded-full" style={{ backgroundColor: LAYER_STYLES.pubs.color }} />
@@ -167,11 +166,10 @@ export function BusinessMap({ buildings, venues, selectedVenueId, onSelect }: Pr
             Restaurants
           </span>
         </div>
-      </div>
-      <div className="relative overflow-hidden border rounded-lg border-slate-100 bg-white/80">
-        <svg ref={svgRef} className="block w-full h-auto" />
-        <ChartTooltip ref={tooltipRef} />
-      </div>
-    </div>
+      }
+    >
+      <svg ref={svgRef} className="block w-full h-auto" />
+      <ChartTooltip ref={tooltipRef} />
+    </ChartCard>
   );
 }

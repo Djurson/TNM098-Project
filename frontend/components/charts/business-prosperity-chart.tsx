@@ -7,6 +7,7 @@ import { ChartTooltip, type TooltipRef } from "@/components/chart-tooltip";
 import { LAYER_STYLES } from "@/lib/utils";
 import type { EnrichedVenue } from "@/lib/types";
 import { axisBottom, axisLeft, format, max, scaleLinear } from "d3";
+import { ChartCard } from "@/components/ui/chart-card";
 
 const WIDTH = 500;
 const HEIGHT = 380;
@@ -167,13 +168,11 @@ export function BusinessProsperityChart({ venues, selectedVenueId, onSelect }: P
   }, [selectedVenueId]);
 
   return (
-    <div className="flex flex-col gap-3 p-4 border shadow-sm rounded-xl border-slate-200 bg-slate-50">
-      <div className="flex items-start justify-between">
-        <div>
-          <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Venue Analytics</p>
-          <h2 className="text-xl font-semibold text-slate-900">Performance Overview</h2>
-          <p className="mt-0.5 text-xs text-slate-400">Click to select · hover for details</p>
-        </div>
+    <ChartCard
+      eyebrow="Venue Analytics"
+      title="Performance Overview"
+      hint="Click to select · hover for details"
+      actions={
         <div className="flex items-center gap-4 mt-1 text-xs text-slate-500">
           <span className="flex items-center gap-1.5">
             <span className="w-3 h-3 rounded-full" style={{ backgroundColor: LAYER_STYLES.pubs.color }} />
@@ -184,11 +183,10 @@ export function BusinessProsperityChart({ venues, selectedVenueId, onSelect }: P
             Restaurants
           </span>
         </div>
-      </div>
-      <div className="relative overflow-hidden border rounded-lg border-slate-100 bg-white/80">
-        <svg ref={svgRef} className="block w-full h-auto" />
-        <ChartTooltip ref={tooltipRef} />
-      </div>
-    </div>
+      }
+    >
+      <svg ref={svgRef} className="block w-full h-auto" />
+      <ChartTooltip ref={tooltipRef} />
+    </ChartCard>
   );
 }

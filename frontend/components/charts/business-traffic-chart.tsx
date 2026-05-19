@@ -7,6 +7,7 @@ import { ChartTooltip, type TooltipRef } from "@/components/chart-tooltip";
 import type { EnrichedVenue } from "@/lib/types";
 import { area, axisBottom, axisLeft, bisector, curveMonotoneX, extent, format, line, max, pointer, scaleLinear, scaleTime, timeFormat, zoom, type ScaleTime, type ScaleLinear, type ZoomBehavior, type Selection } from "d3";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ChartCard } from "@/components/ui/chart-card";
 import { CircleDollarSign, Footprints } from "lucide-react";
 
 // ── Constants ─────────────────────────────────────────────────────────────────
@@ -132,25 +133,17 @@ function buildZoomBehavior(): ZoomBehavior<SVGRectElement, unknown> {
     ]);
 }
 
-function buildTrendLine(
-  chartArea: ChartScaffold["chartArea"],
-  vRows: VRow[],
-  venueColor: string,
-  yScale: YScale,
-  xScaleRef: XScaleRef,
-  getVal: (d: VRow) => number,
-  slope: number,
-): (() => void) | null {
+function buildTrendLine(chartArea: ChartScaffold["chartArea"], vRows: VRow[], venueColor: string, yScale: YScale, xScaleRef: XScaleRef, getVal: (d: VRow) => number, slope: number): (() => void) | null {
   const byMonth = new Map<string, number>();
   for (const row of vRows) byMonth.set(row.date.slice(0, 7), (byMonth.get(row.date.slice(0, 7)) ?? 0) + getVal(row));
 
   const months = [...byMonth.keys()].sort();
   if (months.length < 2) return null;
 
-  const totals    = months.map((m) => byMonth.get(m)!);
-  const mean_y    = totals.reduce((a, b) => a + b, 0) / months.length;
+  const totals = months.map((m) => byMonth.get(m)!);
+  const mean_y = totals.reduce((a, b) => a + b, 0) / months.length;
   const intercept = mean_y - slope * ((months.length - 1) / 2);
-  const t0        = new Date(months[0] + "-01T00:00:00Z").getTime();
+  const t0 = new Date(months[0] + "-01T00:00:00Z").getTime();
 
   const getTrendY = (d: Date) => {
     const idx = (d.getTime() - t0) / (1000 * 60 * 60 * 24 * DAYS_PER_MONTH);
@@ -356,16 +349,6 @@ function drawAggregateSeries(
 
 // ── UI sub-components ─────────────────────────────────────────────────────────
 
-function ChartHeader({ metric }: { metric: Metric }) {
-  return (
-    <div>
-      <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Activity Analytics</p>
-      <h2 className="text-xl font-semibold text-slate-900">{metric === "revenue" ? "Daily Revenue" : "Daily Check-ins"}</h2>
-      <p className="mt-0.5 text-xs text-slate-400">Scroll to zoom · drag to pan · hover for details</p>
-    </div>
-  );
-}
-
 interface LegendProps {
   isVenueMode: boolean;
   selectedVenue: EnrichedVenue | null | undefined;
@@ -460,27 +443,29 @@ export function BusinessTrafficChart({ data, selectedVenueDaily, selectedVenue }
   const venueColor = selectedVenue?.type === "pub" ? LAYER_STYLES.pubs.color : LAYER_STYLES.restaurants.color;
 
   return (
-    <Tabs value={metric} onValueChange={(v) => setMetric(v as Metric)} className="flex flex-col gap-3 p-4 border shadow-sm rounded-xl border-slate-200 bg-slate-50">
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <ChartHeader metric={metric} />
+    <ChartCard
+      eyebrow="Activity Analytics"
+      title={metric === "revenue" ? "Daily Revenue" : "Daily Check-ins"}
+      hint="Scroll to zoom · drag to pan · hover for details"
+      actions={
         <div className="flex flex-col items-end gap-3">
-          <TabsList>
-            <TabsTrigger value="revenue">
-              <CircleDollarSign />
-              Daily Revenue
-            </TabsTrigger>
-            <TabsTrigger value="checkins">
-              <Footprints />
-              Check-ins
-            </TabsTrigger>
-          </TabsList>
+          <Tabs value={metric} onValueChange={(v) => setMetric(v as Metric)}>
+            <TabsList>
+              <TabsTrigger value="revenue">
+                <CircleDollarSign />
+                Daily Revenue
+              </TabsTrigger>
+              <TabsTrigger value="checkins">
+                <Footprints />
+                Check-ins
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
           <ChartLegend isVenueMode={isVenueMode} selectedVenue={selectedVenue} venueColor={venueColor} />
         </div>
-      </div>
-      <div className="relative overflow-hidden border rounded-lg border-slate-100 bg-white/80">
-        <svg ref={svgRef} className="block w-full h-auto" />
-        <ChartTooltip ref={tooltipRef} />
-      </div>
-    </Tabs>
+      }>
+      <svg ref={svgRef} className="block w-full h-auto" />
+      <ChartTooltip ref={tooltipRef} />
+    </ChartCard>
   );
 }

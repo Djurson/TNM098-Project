@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { LAYER_STYLES } from "@/lib/utils";
 import type { EnrichedVenue } from "@/lib/types";
 import { axisBottom, axisLeft, axisTop, format, scaleBand, scaleLinear } from "d3";
+import { ChartCard } from "@/components/ui/chart-card";
 
 const WIDTH = 900;
 const MARGINS = { top: 16, right: 24, bottom: 36, left: 110 };
@@ -163,13 +164,11 @@ export function BusinessHealthIndexChart({ venues, selectedVenueId, onSelect }: 
   }, [selectedVenueId]);
 
   return (
-    <div className="flex flex-col gap-3 p-4 border shadow-sm rounded-xl border-slate-200 bg-slate-50">
-      <div className="flex items-start justify-between">
-        <div>
-          <p className="text-xs uppercase tracking-[0.4em] text-slate-400">Ranking</p>
-          <h2 className="text-xl font-semibold text-slate-900">Business Health Index</h2>
-          <p className="mt-0.5 text-xs text-slate-400">Sorted by index score · click to select · hover for breakdown</p>
-        </div>
+    <ChartCard
+      eyebrow="Ranking"
+      title="Business Health Index"
+      hint="Sorted by index score · click to select · hover for breakdown"
+      actions={
         <div className="flex items-center gap-3 mt-1">
           <div className="flex items-center gap-4 text-xs text-slate-500">
             <span className="flex items-center gap-1.5">
@@ -215,11 +214,10 @@ export function BusinessHealthIndexChart({ venues, selectedVenueId, onSelect }: 
             </PopoverContent>
           </Popover>
         </div>
-      </div>
-      <div className="relative overflow-hidden border rounded-lg border-slate-100 bg-white/80">
-        <svg ref={svgRef} className="block w-full h-auto" />
-        <ChartTooltip ref={tooltipRef} />
-      </div>
-    </div>
+      }
+    >
+      <svg ref={svgRef} className="block w-full h-auto" />
+      <ChartTooltip ref={tooltipRef} />
+    </ChartCard>
   );
 }
